@@ -15,4 +15,4 @@ Installation:
 - **Linux**: <home>/.vscode/themes
 - **Windows**: %APPDATA%\Microsoft\Visual Studio Code
 
-Typ: Use the **Source Code Pro** font for better look and feel.
+Tip: Use the **Source Code Pro** font for better look and feel.
