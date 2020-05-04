@@ -12,7 +12,7 @@ This theme was made focusing in **JS, PHP, CSS and HTML**, but feel free to fork
 Installation:
 - Clone or download this repository;
 - Copy and Paste the content in the themes folder of VS Code
-- **Linux**: <home>/.vscode/extensions/<create-a-folder-here>
-- **Windows**: %APPDATA%\Microsoft\Visual Studio Code\extensions\<create-a-folder-here>
+- **Linux**: `<home>/.vscode/extensions/<create-a-folder-here>`
+- **Windows**: `%APPDATA%\Microsoft\Visual Studio Code\extensions\<create-a-folder-here>`
 
 Tip: Use the **Source Code Pro** font for better look and feel.
