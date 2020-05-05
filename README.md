@@ -1,6 +1,8 @@
 # Galastri Dark Theme
 Theme for VS Code based on Delkos Dark Theme for Brackets
 
+![image](https://user-images.githubusercontent.com/49572917/81100956-bbefd980-8ee3-11ea-8a36-377ade381611.png)
+
 ATTENTION: EXPERIMENTAL!
 Made for personal use, but I will try to publish it as an extension soon.
 
@@ -9,7 +11,7 @@ I'm migrating from Brackets to VS Code, but none of the themes available in the 
 
 This theme was made focusing in **JS, PHP, CSS and HTML**, but feel free to fork and do the changes to your preferred programming language. I can try to add support to other programming languages, but I can't promise anything.
 
-Installation:
+## Installation:
 - Clone or download this repository;
 - Copy and Paste the content in the themes folder of VS Code
 - **Linux**: `<home>/.vscode/extensions/<create-a-folder-here>`
