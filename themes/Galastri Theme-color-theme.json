@@ -25,7 +25,8 @@
 				"meta.brace",
 				"meta.property-name support.type.vendored",
 				"meta.selector entity.other.attribute-name",
-				"text.html"
+				"text.html",
+				"text.xml"
 			],
 			"settings": {
 				"foreground": "#eaeaeaff",
@@ -43,7 +44,8 @@
 				"variable.other.object.property.js",
 				"variable.other.property.js",
 				"meta.property-name",
-				"source.css support.type.property-name"
+				"source.css support.type.property-name",
+				"keyword.other.sql"
 			],
 			"settings": {
 				"foreground": "#c7e589ff",
@@ -57,6 +59,8 @@
 				"text.html entity.name.tag.html",
 				"text.html punctuation.definition.tag.begin.html",
 				"text.html punctuation.definition.tag.end.html",
+				"text.xml punctuation.definition.tag.xml",
+				"text.xml entity.name.tag.localname",
 				"source.json.comments support.type.property-name",
 				"source.json.comments punctuation.support.type.property-name"
 			],
@@ -69,6 +73,7 @@
 		{
 			"scope": [
 				"text.html entity.other.attribute-name.html",
+				"text.xml entity.other.attribute-name.localname.xml",
 			],
 			"settings": {
 				"foreground": "#8ae5c9ff",
@@ -95,7 +100,7 @@
 				"source.js entity.name.type",
 				"source.php variable.other.property",
 				"source.php meta.method-call",
-				"source.php support.class.php"
+				"source.php support.class.php",
 			],
 			"settings": {
 				"foreground": "#aaeaa8ff",
@@ -119,7 +124,7 @@
 				"source.css keyword.other.important",
 				"source.js keyword.operator.new",
 				"keyword.operator.expression.typeof",
-				"keyword.operator.expression.in"
+				"keyword.operator.expression.in",
 			],
 			"settings": {
 				"foreground": "#91c0ffff",
@@ -132,7 +137,8 @@
 				"variable",
 				"punctuation.definition.variable.php",
 				"meta.selector entity.other.attribute-name.pseudo-element",
-				"meta.selector entity.other.attribute-name.pseudo-class"
+				"meta.selector entity.other.attribute-name.pseudo-class",
+				"source.sql text.variable"
 			],
 			"settings": {
 				"foreground": "#64e0ff",
@@ -166,7 +172,8 @@
 				"constant.language",
 				"meta.property-list",
 				"source.css support.function",
-				"source.css constant.other.color"
+				"source.css constant.other.color",
+				"keyword.other.DDL.create.II.sql"
 			],
 			"settings": {
 				"foreground": "#ccaaffff",
