@@ -6,16 +6,17 @@
 		"editor.foreground": "#eaeaeaff",
 		"activityBarBadge.background": "#91d3ff",
 		"sideBarTitle.foreground": "#bbbbbbff",
-		"editor.selectionBackground": "#223344ff",
-		"editor.selectionHighlightBackground": "#283c504b",
-		"editorBracketMatch.background": "#ce40bbd8",
+		"editor.selectionBackground": "#2b445e",
+		"editor.selectionHighlightBackground": "#38608b",
+		"editorBracketMatch.background": "#e727cde8",
 		"editorBracketMatch.border": "#f50bd600",
 		"editorLineNumber.foreground": "#666666",
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.lineHighlightBackground": "#2233444b",
 		"editorIndentGuide.activeBackground": "#292d33",
 		"editorIndentGuide.background": "#1a1d20",
-		"editor.foldBackground": "#00000000"
+		"editor.foldBackground": "#00000000",
+		"editor.findMatchHighlightBackground": "#fff88f",
 	},
 	"tokenColors": [
 		{
@@ -101,6 +102,7 @@
 				"source.php variable.other.property",
 				"source.php meta.method-call",
 				"source.php support.class.php",
+				"meta.use entity.other.alias",
 			],
 			"settings": {
 				"foreground": "#aaeaa8ff",
@@ -125,6 +127,8 @@
 				"source.js keyword.operator.new",
 				"keyword.operator.expression.typeof",
 				"keyword.operator.expression.in",
+				"meta.method.declaration.js meta.var.expr.js",
+				"source.php keyword.operator.logical"
 			],
 			"settings": {
 				"foreground": "#91c0ffff",
@@ -138,7 +142,8 @@
 				"punctuation.definition.variable.php",
 				"meta.selector entity.other.attribute-name.pseudo-element",
 				"meta.selector entity.other.attribute-name.pseudo-class",
-				"source.sql text.variable"
+				"source.sql text.variable",
+				"variable.language.this.php"
 			],
 			"settings": {
 				"foreground": "#64e0ff",
@@ -189,7 +194,11 @@
 				"string.regexp keyword.operator",
 				"string.regexp constant",
 				"source.php keyword.operator.heredoc",
-				"source.css variable.parameter"
+				"source.css variable.parameter",
+				"string.quoted constant",
+				"string.quoted keyword",
+				"string.quoted keyword.operator",
+				"string.quoted keyword.other.sql",
 			],
 			"settings": {
 				"foreground": "#ff97e7ff",
@@ -220,7 +229,9 @@
 		{
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"comment.block.documentation.phpdoc",
+				"meta.class comment.block.documentation.phpdoc support.class.php"
 			],
 			"settings": {
 				"foreground": "#95927eff",
