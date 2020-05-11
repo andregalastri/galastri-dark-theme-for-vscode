@@ -17,4 +17,5 @@ This theme was made focusing in **JS, PHP, CSS and HTML**, but feel free to fork
 - **Linux**: `<home>/.vscode/extensions/<create-a-folder-here>`
 - **Windows**: `%APPDATA%\Microsoft\Visual Studio Code\extensions\<create-a-folder-here>`
 
-Tip: Use the **Source Code Pro** font for better look and feel.
+## Font
+Brackets uses [Source Code Pro Font](https://github.com/adobe-fonts/source-code-pro) as default font. Install it and configure VS Code to use this as default font for a much better adaptation!
