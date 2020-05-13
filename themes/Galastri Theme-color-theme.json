@@ -25,7 +25,8 @@
 				"keyword.operator",
 				"meta.brace",
 				"meta.property-name support.type.vendored",
-				"meta.selector entity.other.attribute-name",
+				"meta.selector entity.other.attribute-name.class",
+				"meta.selector entity.other.attribute-name.id",
 				"text.html",
 				"text.xml"
 			],
@@ -63,7 +64,8 @@
 				"text.xml punctuation.definition.tag.xml",
 				"text.xml entity.name.tag.localname",
 				"source.json.comments support.type.property-name",
-				"source.json.comments punctuation.support.type.property-name"
+				"source.json.comments punctuation.support.type.property-name",
+				"meta.selector entity.name.tag",
 			],
 			"settings": {
 				"foreground": "#ff61bcff",
@@ -75,6 +77,7 @@
 			"scope": [
 				"text.html entity.other.attribute-name.html",
 				"text.xml entity.other.attribute-name.localname.xml",
+				"entity.other.attribute-name",
 			],
 			"settings": {
 				"foreground": "#8ae5c9ff",
@@ -103,6 +106,7 @@
 				"source.php meta.method-call",
 				"source.php support.class.php",
 				"meta.use entity.other.alias",
+				"source.php support.constant"
 			],
 			"settings": {
 				"foreground": "#aaeaa8ff",
@@ -128,7 +132,10 @@
 				"keyword.operator.expression.typeof",
 				"keyword.operator.expression.in",
 				"meta.method.declaration.js meta.var.expr.js",
-				"source.php keyword.operator.logical"
+				"source.php keyword.operator.logical",
+				"source.php storage.modifier.php",
+				"source.php storage.type.php",
+				"source.php keyword.other"
 			],
 			"settings": {
 				"foreground": "#91c0ffff",
@@ -199,6 +206,8 @@
 				"string.quoted keyword",
 				"string.quoted keyword.operator",
 				"string.quoted keyword.other.sql",
+				"source.php string.quoted keyword.other.DML.sql",
+				"source.php string.quoted keyword.other.alias.sql",
 			],
 			"settings": {
 				"foreground": "#ff97e7ff",
@@ -231,6 +240,7 @@
 				"comment",
 				"punctuation.definition.comment",
 				"comment.block.documentation.phpdoc",
+				"comment.block.documentation keyword.other",
 				"meta.class comment.block.documentation.phpdoc support.class.php"
 			],
 			"settings": {
