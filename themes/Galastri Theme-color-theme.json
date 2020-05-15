@@ -17,6 +17,8 @@
 		"editorIndentGuide.background": "#1a1d20",
 		"editor.foldBackground": "#00000000",
 		"editor.findMatchHighlightBackground": "#fff88f",
+		"statusBar.background": "#262626",
+		"statusBar.foreground": "#808080"
 	},
 	"tokenColors": [
 		{
@@ -208,6 +210,7 @@
 				"string.quoted keyword.other.sql",
 				"source.php string.quoted keyword.other.DML.sql",
 				"source.php string.quoted keyword.other.alias.sql",
+				"string.json punctuation",
 			],
 			"settings": {
 				"foreground": "#ff97e7ff",
