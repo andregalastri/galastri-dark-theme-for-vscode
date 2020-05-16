@@ -18,7 +18,9 @@
 		"editor.foldBackground": "#00000000",
 		"editor.findMatchHighlightBackground": "#fff88f",
 		"statusBar.background": "#262626",
-		"statusBar.foreground": "#808080"
+		"statusBar.foreground": "#808080",
+		"diffEditor.insertedTextBackground": "#3dffab2b",
+		"diffEditor.removedTextBackground": "#f5004947"
 	},
 	"tokenColors": [
 		{
@@ -68,6 +70,8 @@
 				"source.json.comments support.type.property-name",
 				"source.json.comments punctuation.support.type.property-name",
 				"meta.selector entity.name.tag",
+				"source.json punctuation.support.type.property-name",
+				"source.json support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#ff61bcff",
@@ -137,7 +141,8 @@
 				"source.php keyword.operator.logical",
 				"source.php storage.modifier.php",
 				"source.php storage.type.php",
-				"source.php keyword.other"
+				"source.php keyword.other",
+				"source.php storage.type.trait",
 			],
 			"settings": {
 				"foreground": "#91c0ffff",
