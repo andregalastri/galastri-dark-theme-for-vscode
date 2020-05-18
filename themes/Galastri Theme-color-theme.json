@@ -19,6 +19,8 @@
 		"editor.findMatchHighlightBackground": "#fff88f",
 		"statusBar.background": "#262626",
 		"statusBar.foreground": "#808080",
+		"statusBar.debuggingBackground": "#262626",
+		"statusBar.noFolderBackground": "#262626",
 		"diffEditor.insertedTextBackground": "#3dffab2b",
 		"diffEditor.removedTextBackground": "#f5004947"
 	},
@@ -192,7 +194,8 @@
 				"meta.property-list",
 				"source.css support.function",
 				"source.css constant.other.color",
-				"keyword.other.DDL.create.II.sql"
+				"keyword.other.DDL.create.II.sql",
+				"constant.other.color.rgb-value.hex.css punctuation"
 			],
 			"settings": {
 				"foreground": "#ccaaffff",
