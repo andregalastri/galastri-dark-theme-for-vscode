@@ -104,6 +104,7 @@
 				"source.js support.function",
 				"meta.class support.class.php",
 				"meta.class meta.method-call.static",
+				"meta.class support.other.namespace.php",
 				"support.class.builtin.php",
 				"support.class.exception.php",
 				"constant",
@@ -114,7 +115,7 @@
 				"source.php meta.method-call",
 				"source.php support.class.php",
 				"meta.use entity.other.alias",
-				"source.php support.constant"
+				"source.php support.constant",
 			],
 			"settings": {
 				"foreground": "#aaeaa8ff",
