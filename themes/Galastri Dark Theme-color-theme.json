@@ -1,0 +1,272 @@
+{
+	"name": "Galastri Dark Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#161616ff",
+		"editor.foreground": "#eaeaeaff",
+		"activityBarBadge.background": "#91d3ff",
+		"sideBarTitle.foreground": "#bbbbbbff",
+		"editor.selectionBackground": "#2b445e",
+		"editor.selectionHighlightBackground": "#38608b",
+		"editorBracketMatch.background": "#e727cde8",
+		"editorBracketMatch.border": "#f50bd600",
+		"editorLineNumber.foreground": "#666666",
+		"editor.lineHighlightBorder": "#00000000",
+		"editor.lineHighlightBackground": "#2233444b",
+		"editorIndentGuide.activeBackground": "#292d33",
+		"editorIndentGuide.background": "#1a1d20",
+		"editor.foldBackground": "#00000000",
+		"editor.findMatchHighlightBackground": "#fff88f",
+		"statusBar.background": "#262626",
+		"statusBar.foreground": "#808080",
+		"statusBar.debuggingBackground": "#262626",
+		"statusBar.noFolderBackground": "#262626",
+		"diffEditor.insertedTextBackground": "#3dffab2b",
+		"diffEditor.removedTextBackground": "#f5004947"
+	},
+	"tokenColors": [
+//-----------------------------------------------------------------
+		// WHITE
+		{
+			"scope": [
+				"text.html"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// OFFWHITE
+		{
+			"scope": [
+				"punctuation",
+				"keyword.operator",
+
+				"source.js punctuation.definition.template-expression",
+				"source.js meta.template.expression punctuation",
+				"source.js meta.template.expression",
+				"source.js meta.class meta.method.declaration meta.block",
+
+				"source.css support.type.vendored"
+			],
+			"settings": {
+				"foreground": "#eaeaeaff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// GRAY
+		{
+			"scope": [
+				"comment",
+				"comment.block keyword.other",
+				"comment.block support.class",
+				"comment.block punctuation",
+				"comment.block storage.type.class",
+				"comment.block entity.name.type",
+				"comment.block variable",
+				"punctuation.definition.comment",
+			],
+			"settings": {
+				"foreground": "#95927eff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// YELLOW
+		{
+			"scope": [
+				"source.php meta.namespace",
+				"source.php meta.namespace punctuation",
+				"source.php meta.trait",
+				"source.php meta.function",
+				"source.php meta.function meta.function.parameters variable",
+				"source.php meta.function meta.function.parameters variable punctuation.definition.variable",
+				"source.php meta.class entity.name.type.class",
+
+				"source.js meta.class entity.name.type.class",
+				"source.js meta.class meta.method.declaration",
+				"source.js meta.var.expr meta.definition variable",
+				"source.js variable.parameter",
+				"source.js meta.definition.variable",
+
+				"source.css keyword.control",
+				"source.css keyword.control punctuation",
+			],
+			"settings": {
+				"foreground": "#ffd800ff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// GREEN
+		{
+			"scope": [
+				"source.php variable.other.property",
+
+				"source.js variable.other.property",
+				"source.js variable.other.object.property",
+				"source.js meta.object-literal.key",
+				"source.js meta.function-call entity.name",
+
+				"source.css meta.property-name",
+				"source.css support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#c7e589ff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// BLUISH GREEN
+		{
+			"scope": [
+				"source.js support.variable.property",
+				"source.js support.function",
+
+				"source.css meta.attribute-selector",
+				
+				"text.html entity.other.attribute-name",
+			],
+			"settings": {
+				"foreground": "#8ae5c9ff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// EMERALD GREEN
+		{
+			"scope": [
+				"source.php meta.use",
+				"source.php meta.use punctuation",
+				"source.php meta.class meta.other.inherited-class",
+				"source.php meta.class meta.other.inherited-class punctuation",
+				"source.php meta.method-call entity.name",
+				"source.php meta.function-call entity.name",
+				"source.php support.class",
+
+				"source.js entity.name.type",
+
+				"constant.other",
+				"support.constant",
+			],
+			"settings": {
+				"foreground": "#aaeaa8ff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// LIGHT BLUE
+		{
+			"scope": [
+				"source.php keyword.other.namespace",
+				"source.php storage.type.class",
+				"source.php storage.type.trait",
+				"source.php keyword.other",
+				"source.php storage.modifier",
+				"source.php storage.type",
+				"source.php variable.language.this punctuation.definition.variable",
+				"source.php meta.function support.class",
+
+				"source.js storage.type.class",
+				"source.js storage.type.function",
+				"source.js meta.var.expr storage.type",
+				"source.js meta.method.declaration storage.type.property",
+				"source.js keyword.operator.expression",
+				"source.js keyword.operator.new",
+
+				"source.css keyword",
+
+				"keyword.control",
+				"keyword.operator.logical",
+				"variable.language.this",
+			],
+			"settings": {
+				"foreground": "#91c0ffff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// CIAN
+		{
+			"scope": [
+				"source.php variable",
+				"source.php punctuation.definition.variable",
+
+				"source.js variable",
+
+				"source.css entity.other.attribute-name.pseudo-class",
+				"source.css entity.other.attribute-name.pseudo-element",
+				"source.css variable",
+			],
+			"settings": {
+				"foreground": "#64e0ff",
+				"fontStyle": "bold",
+			}
+		},
+//-----------------------------------------------------------------
+		// LIGHT PURPLE
+		{
+			"scope": [
+				"constant.language",
+				"source.css support.constant",
+				"source.css constant.other",
+				"source.css constant.other punctuation",
+				"source.css support.function",
+				"source.css meta.property-value",
+			],
+			"settings": {
+				"foreground": "#ccaaffff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// LIGHT PINK
+		{
+			"scope": [
+				"source.php keyword.operator.heredoc",
+
+				"source.js meta.template.expression punctuation.definition.string",
+
+				"source.css variable.parameter",
+
+				"string",
+				"string punctuation",
+			],
+			"settings": {
+				"foreground": "#ff97e7ff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// PINK
+		{
+			"scope": [
+				"text.html meta.tag",
+				"text.html meta.tag punctuation.definition",
+
+				"source.css entity.name.tag",
+
+				"source.json support.type.property-name",
+				"source.json support.type.property-name punctuation",
+			],
+			"settings": {
+				"foreground": "#ff61bcff",
+				"fontStyle": "",
+			}
+		},
+//-----------------------------------------------------------------
+		// RED
+		{
+			"scope": [
+				"constant.numeric",
+				"source.css keyword.other.unit",
+			],
+			"settings": {
+				"foreground": "#ff7272ff",
+				"fontStyle": "",
+			}
+		},
+	]
+}

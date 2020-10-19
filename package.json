@@ -2,9 +2,9 @@
     "name": "galastri-dark-theme",
     "displayName": "Galastri Dark Theme",
     "description": "Theme based on Delkos Dark Theme for Brackets",
-    "version": "0.0.1",
+    "version": "0.02.000",
     "engines": {
-        "vscode": "^1.44.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Themes"
@@ -14,7 +14,7 @@
             {
                 "label": "Galastri Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Galastri Theme-color-theme.json"
+                "path": "./themes/Galastri Dark Theme-color-theme.json"
             }
         ]
     }
