@@ -2,7 +2,7 @@
     "name": "galastri-dark-theme",
     "displayName": "Galastri Dark Theme",
     "description": "Theme based on Delkos Dark Theme for Brackets",
-    "version": "0.02.000",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.50.0"
     },
