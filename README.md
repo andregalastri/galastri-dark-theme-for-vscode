@@ -9,7 +9,7 @@ Made for personal use, but I will try to publish it as an extension soon.
 ## Reason
 I'm migrating from Brackets to VS Code, but none of the themes available in the marketplace had the look and feel of the Delkos Dark Theme and I saw a huge drop in my productivity. As that theme is for Brackets only, I created a new theme for VS Code using the colours based by Delkos. There is no growing effect, only the colour highlights for the code.
 
-This theme was made focusing in **JS (vanilla), PHP, CSS and HTML**, but feel free to fork and do the changes to your preferred programming language. I can try to add support to other programming languages, but I can't promise anything.
+This theme was made focusing in **JS (vanilla), PHP, CSS and HTML**. I can try to add support, open an issue to ask about support for your preferred programming languages. I can't promise anything, but I'll try my best to offer support.
 
 ## Installation:
 - Clone or download this repository;
