@@ -47,6 +47,7 @@
 				"source.js meta.template.expression punctuation",
 				"source.js meta.template.expression",
 				"source.js meta.class meta.method.declaration meta.block",
+				"source.js meta.object-literal.key meta.brace",
 
 				"source.css support.type.vendored"
 			],
@@ -66,6 +67,7 @@
 				"comment.block storage.type.class",
 				"comment.block entity.name.type",
 				"comment.block variable",
+				"comment.block constant.other",
 				"punctuation.definition.comment",
 			],
 			"settings": {
