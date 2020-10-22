@@ -92,6 +92,7 @@
 				"source.js meta.var.expr meta.definition variable",
 				"source.js variable.parameter",
 				"source.js meta.definition.variable",
+				"source.js meta.definition.variable variable.other.constant",
 
 				"source.css keyword.control",
 				"source.css keyword.control punctuation",
