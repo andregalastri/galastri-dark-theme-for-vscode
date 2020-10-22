@@ -111,6 +111,7 @@
 				"source.js variable.other.object.property",
 				"source.js meta.object-literal.key",
 				"source.js meta.function-call entity.name",
+				"source.js entity.name.function",
 
 				"source.css meta.property-name",
 				"source.css support.type.property-name"
@@ -149,6 +150,7 @@
 				"source.php support.class",
 
 				"source.js entity.name.type",
+				"source.js variable.other.constant",
 
 				"constant.other",
 				"support.constant",
@@ -228,6 +230,7 @@
 		{
 			"scope": [
 				"source.php keyword.operator.heredoc",
+				"source.php string keyword.other",
 
 				"source.js meta.template.expression punctuation.definition.string",
 
@@ -235,6 +238,7 @@
 
 				"string",
 				"string punctuation",
+				"string keyword.other",
 			],
 			"settings": {
 				"foreground": "#ff97e7ff",
