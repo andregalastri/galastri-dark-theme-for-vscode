@@ -25,11 +25,11 @@ I will try my best to include it as best that I can.
 
 ## Installation:
 - Clone or download this repository inside one of this folders:<br>
-  **Linux**: `<home>/.vscode/extensions/`<br>
+  **Linux**: `$HOME/.vscode/extensions/`<br>
   **Windows**: `%APPDATA%\Microsoft\Visual Studio Code\extensions\`
 
 ## Notes
-1. This theme is configured to work **only with specific syntax support**. If your language isn't in the list below, it will probably don't work. I made it this way because it is more simple to keep track of the synxtax highlight variables, even though the theme main file become a little bigger.
+1. This theme is configured to work **only with specific syntax support**. If your language isn't in the list above, it will probably don't work. I made it this way because it is more simple to keep track of the synxtax highlight variables, even though the theme main file become a little bigger.
 2. I made some changes from the original Delkos theme, some changes are to suit my own taste and another are because the limitations with the way some syntax highlight work in VS Code that differs the way Brackets does.
 
 ## Font recommendation
