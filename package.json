@@ -1,20 +1,54 @@
 {
-    "name": "galastri-dark-theme",
-    "displayName": "Galastri Dark Theme",
-    "description": "Theme based on Delkos Dark Theme for Brackets",
-    "version": "0.0.2",
+    "name": "galastri-dark-theme-for-vscode",
+    "displayName": "Galastri Dark Theme For VS Code",
+    "description": "Theme for VS Code based on Delkos Dark Theme for Brackets",
+    "publisher": "andregalastri",
+	"license": "MIT",
+    "version": "0.3.0",
     "engines": {
-        "vscode": "^1.50.0"
+        "vscode": "^1.54.0"
     },
+    "maintainers": [
+		"André Galastri <contato@andregalastri.com.br>"
+	],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/andregalastri/galastri-dark-theme-for-vscode.git"
+	},
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"galastri",
+		"delkos",
+		"brackets",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+    "icon": "icon.png",
+    "galleryBanner": {
+		"color": "#161616",
+		"theme": "dark"
+	},
     "contributes": {
         "themes": [
             {
                 "label": "Galastri Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Galastri Dark Theme-color-theme.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "php",
+                "scopeName": "source.php",
+                "path": "./syntaxes/php.tmLanguage.json"
+            },
+            {
+                "language": "php",
+                "scopeName": "text.html.php",
+                "path": "./syntaxes/html.tmLanguage.json"
             }
         ]
     }
