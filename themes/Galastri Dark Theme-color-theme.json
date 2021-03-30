@@ -11,21 +11,29 @@
 			// Indent guides
 			"editorIndentGuide.background": "#ffffff06",
 			"editorIndentGuide.activeBackground": "#273d4b9c",
-			// Line highlight
+			// Line asdasd highlight
 			"editor.lineHighlightBackground": "#0099ff1e",
 
 			"editor.findMatchHighlightBackground": "#fffbb554",
 			"editor.findMatchHighlightBorder": "#161616",
 			"editor.findMatchBackground": "#ad8500",
 
+		/* Diff Editor */
+		"diffEditor.insertedTextBackground": "#15ca8e1f",
+		"diffEditor.removedTextBackground": "#ff00552f",
+		"diffEditor.diagonalFill": "#839ed81f",
 
 		/* Activity sidebar (Explorer, Source control, etc) */
-		"activityBarBadge.background": "#0099ff",
+		"activityBar.background": "#1f1f1f",
+		"activityBar.activeBorder": "#0099ff62",
+		"activityBar.border": "#242424",
+		"activityBarBadge.background": "#1568a0",
 
 		/* Sidebar panels (when you open a activity) */
-		"sideBar.background": "#292929",
+		"sideBar.background": "#222222",
 		"sideBar.foreground": "#acacac",
-			// Extension button (Install)
+		"sideBar.border": "#242424",
+		// Extension button (Install)
 			"extensionButton.prominentBackground": "#0cbd82",
 			"extensionButton.prominentHoverBackground": "#0ae99f",
 			"extensionButton.prominentForeground": "#0b0b0b",
@@ -34,6 +42,38 @@
 			"list.focusOutline": "#00000000",
 			"list.inactiveSelectionBackground": "#0b476f", // background when unfocus the list item
 			"list.inactiveSelectionForeground": "#ffffff", // foreground when unfocus the list item
+
+		/* Title bar */
+		"titleBar.activeBackground": "#1a1a1a",
+		"titleBar.inactiveBackground": "#1a1a1a",
+		"titleBar.border": "#1f1f1f",
+
+		/* Minimap */
+		"minimap.background": "#161616ee",
+		"minimap.findMatchHighlight": "#fffbb5a5",
+		"minimapSlider.background": "#ffffff09",
+
+		"menubar.selectionBackground": "#0b476f",
+
+		/* Tabs and tab bar */
+		"tab.activeBackground": "#0b476f36",
+		"tab.inactiveBackground": "#1a1a1a",
+		"tab.hoverBackground": "#1e77b349",
+		"tab.border": "#1f1f1f",
+		"editorGroupHeader.tabsBackground": "#1a1a1a",
+		"scrollbar.shadow": "#ffffff09",
+
+		/* Scroll */
+		"scrollbarSlider.background": "#ffffff09",
+		"scrollbarSlider.hoverBackground": "#ffffff19",
+		"scrollbarSlider.activeBackground": "#ffffff29",
+
+		/* Bracket open/close hightlight */
+		"editorBracketMatch.background": "#db179a",
+		"editorBracketMatch.border": "#00000000",
+
+		/* Bottom panel */
+		"panel.border": "#242424",
 
 		/* Fields */
 		"dropdown.border": "#00000000",
@@ -882,9 +922,16 @@
 
 		{
             "scope": [
-				"text.html.markdown markup.heading",
+				"text.html.markdown markup",
             ],
-			"settings": {"foreground": "#ff8aff","fontStyle": "bold"}
+			"settings": {"foreground": "#d68455","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"text.html.markdown markup.list punctuation.definition.list.begin",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": "bold"}
         },
 
 		{
@@ -905,14 +952,14 @@
 
 		{
             "scope": [
-				"text.html.markdown markup.list punctuation.definition.list.begin",
+				"text.html.markdown markup.heading",
             ],
 			"settings": {"foreground": "#ffc400","fontStyle": "bold"}
         },
 
 		{
             "scope": [
-				"text.html.markdown meta.link",
+				"text.html.markdown meta.link markup",
             ],
 			"settings": {"foreground": "#b086ee","fontStyle": "italic underline"}
         },
@@ -930,7 +977,7 @@
 
 		{
             "scope": [
-				"text.html.markdown meta.image",
+				"text.html.markdown meta.image markup",
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "italic underline"}
         },
@@ -941,6 +988,58 @@
 				"text.html.markdown meta.image punctuation.definition.string",
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "bold underline"}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * CoffeeScript
+		 **************************************************/
+		{
+            "scope": [
+				"source.coffee",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee comment",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee string",
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee punctuation.definition.escape.backslash",
+            ],
+			"settings": {"foreground": "#ffa2e942","fontStyle": ""}
         },
 	]
 }
