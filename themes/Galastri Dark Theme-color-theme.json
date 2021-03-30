@@ -46,46 +46,55 @@
 		/* Title bar */
 		"titleBar.activeBackground": "#1a1a1a",
 		"titleBar.inactiveBackground": "#1a1a1a",
-		"titleBar.border": "#1f1f1f",
+		"titleBar.border": "#161616",
 
 		/* Minimap */
-		"minimap.background": "#161616ee",
+		"minimap.background": "#161616",
 		"minimap.findMatchHighlight": "#fffbb5a5",
 		"minimapSlider.background": "#ffffff09",
 
+		/* Menubar */
 		"menubar.selectionBackground": "#0b476f",
 
 		/* Tabs and tab bar */
 		"tab.activeBackground": "#0b476f36",
 		"tab.inactiveBackground": "#1a1a1a",
-		"tab.hoverBackground": "#1e77b349",
-		"tab.border": "#1f1f1f",
+		"tab.hoverBackground": "#1e77b333",
+		"tab.border": "#00000000",
+		"tab.activeBorder": "#103955",
 		"editorGroupHeader.tabsBackground": "#1a1a1a",
-		"scrollbar.shadow": "#ffffff09",
+		"scrollbar.shadow": "#0000001f",
 
 		/* Scroll */
 		"scrollbarSlider.background": "#ffffff09",
 		"scrollbarSlider.hoverBackground": "#ffffff19",
 		"scrollbarSlider.activeBackground": "#ffffff29",
+		"editorOverviewRuler.border": "#00000000",
+		"editorOverviewRuler.background": "#141414",
 
 		/* Bracket open/close hightlight */
 		"editorBracketMatch.background": "#db179a",
 		"editorBracketMatch.border": "#00000000",
 
 		/* Bottom panel */
-		"panel.border": "#242424",
+		"panel.border": "#00000000",
+		"panel.background": "#131313",
 
 		/* Fields */
 		"dropdown.border": "#00000000",
+		"dropdown.background": "#0b476f8c",
+		"panel.dropBorder": "#ff0000",
 			
 		/* Right click menu */
-		"menu.background": "#2e2e2e",
-		"menu.border": "#494949", // Only external border
+		"menu.background": "#202020",
+		"menu.border": "#272727", // Only external border
 		"menu.foreground": "#acacac",
+		"menu.separatorBackground": "#3a3a3a",
 
 		/* Status Bar (bottom of the screen)*/
 		"statusBar.background": "#262626",
 		"statusBar.foreground": "#868686",
+
 		// Buttons
 		"statusBarItem.hoverBackground": "#00000038",
 			// While debugging
