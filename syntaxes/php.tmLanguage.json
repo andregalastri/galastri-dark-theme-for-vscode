@@ -390,7 +390,7 @@
 			}
 		},
 		{
-			"begin": "(?i)\\b((?:require|include)(?:_once)?)[\\s\\(]+",
+			"begin": "(?i)\\b((?:require|include)(?:_once)?)(?=\\s|\\()",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.control.import.include.php"
@@ -750,7 +750,7 @@
 			]
 		},
 		{
-			"match": "(?xi)\n((?:(?:public|private|protected|static)(?:\\s+|(?=\\?)))+)                     # At least one modifier\n(\n  (?:\\?\\s*)? [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+ |                                        # nullable type\n  [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+ (?: \\s*\\|\\s* [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+)+ # union type\n)?\n\\s+ ((\\$)[a-z_\\x{7f}-\\x{7fffffff}][a-z0-9_\\x{7f}-\\x{7fffffff}]*)          # Variable name",
+			"match": "(?xi)\n((?:(?:public|private|protected|static)(?:\\s+|(?=\\?)))++)                     # At least one modifier\n(\n  (?:\\?\\s*)? [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+ |                                        # nullable type\n  [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+ (?: \\s*\\|\\s* [a-z0-9_\\x{7f}-\\x{7fffffff}\\\\]+)+ # union type\n)?\n\\s+ ((\\$)[a-z_\\x{7f}-\\x{7fffffff}][a-z0-9_\\x{7f}-\\x{7fffffff}]*)          # Variable name",
 			"captures": {
 				"1": {
 					"patterns": [
@@ -1167,7 +1167,7 @@
 					"end": "(?xi)\n( [a-z_\\x{7f}-\\x{7fffffff}] [a-z0-9_\\x{7f}-\\x{7fffffff}]*(?<!static) )?\n(?![a-z0-9_\\x{7f}-\\x{7fffffff}\\\\])",
 					"endCaptures": {
 						"1": {
-							"name": "meta.class.static support.class.php"
+							"name": "support.class.php"
 						}
 					},
 					"patterns": [

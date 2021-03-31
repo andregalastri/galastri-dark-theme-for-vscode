@@ -24,16 +24,16 @@
 		"diffEditor.diagonalFill": "#839ed81f",
 
 		/* Activity sidebar (Explorer, Source control, etc) */
-		"activityBar.background": "#1f1f1f",
+		"activityBar.background": "#181818",
 		"activityBar.activeBorder": "#0099ff62",
-		"activityBar.border": "#242424",
+		"activityBar.border": "#202020",
 		"activityBarBadge.background": "#1568a0",
 
 		/* Sidebar panels (when you open a activity) */
-		"sideBar.background": "#222222",
+		"sideBar.background": "#181818",
 		"sideBar.foreground": "#acacac",
-		"sideBar.border": "#242424",
-		// Extension button (Install)
+		"sideBar.border": "#222222",
+			// Extension button (Install)
 			"extensionButton.prominentBackground": "#0cbd82",
 			"extensionButton.prominentHoverBackground": "#0ae99f",
 			"extensionButton.prominentForeground": "#0b0b0b",
@@ -49,19 +49,20 @@
 		"titleBar.border": "#161616",
 
 		/* Minimap */
-		"minimap.background": "#161616",
+		"minimap.background": "#181818",
 		"minimap.findMatchHighlight": "#fffbb5a5",
 		"minimapSlider.background": "#ffffff09",
 
 		/* Menubar */
 		"menubar.selectionBackground": "#0b476f",
+		"menubar.selectionBorder": "#00000000",
 
 		/* Tabs and tab bar */
 		"tab.activeBackground": "#0b476f36",
 		"tab.inactiveBackground": "#1a1a1a",
 		"tab.hoverBackground": "#1e77b333",
 		"tab.border": "#00000000",
-		"tab.activeBorder": "#103955",
+		"tab.activeBorderTop": "#103955",
 		"editorGroupHeader.tabsBackground": "#1a1a1a",
 		"scrollbar.shadow": "#0000001f",
 
@@ -70,40 +71,46 @@
 		"scrollbarSlider.hoverBackground": "#ffffff19",
 		"scrollbarSlider.activeBackground": "#ffffff29",
 		"editorOverviewRuler.border": "#00000000",
-		"editorOverviewRuler.background": "#141414",
+		"editorOverviewRuler.background": "#151515",
 
 		/* Bracket open/close hightlight */
 		"editorBracketMatch.background": "#db179a",
 		"editorBracketMatch.border": "#00000000",
 
 		/* Bottom panel */
-		"panel.border": "#00000000",
-		"panel.background": "#131313",
+		"panel.border": "#222222",
+		"panel.background": "#181818",
 
 		/* Fields */
-		"dropdown.border": "#00000000",
-		"dropdown.background": "#0b476f8c",
-		"panel.dropBorder": "#ff0000",
-			
+		"focusBorder": "#3e464b",
+		"dropdown.border": "#282d30",
+		"dropdown.background": "#282d30",
+		"input.border": "#282d30",
+		"input.background": "#282d30",
+		
 		/* Right click menu */
-		"menu.background": "#202020",
-		"menu.border": "#272727", // Only external border
+		"menu.background": "#101010",
+		"menu.border": "#101010", // Only external border
 		"menu.foreground": "#acacac",
 		"menu.separatorBackground": "#3a3a3a",
 
 		/* Status Bar (bottom of the screen)*/
 		"statusBar.background": "#262626",
 		"statusBar.foreground": "#868686",
-
-		// Buttons
-		"statusBarItem.hoverBackground": "#00000038",
-			// While debugging
-			"statusBar.debuggingBackground": "#fcce00",
-			"statusBar.debuggingForeground": "#0b0b0b",
-			"statusBar.noFolderBackground": "#262626",
-			"statusBar.noFolderForeground": "#868686",
-			"statusBarItem.remoteBackground": "#106399",
-			"statusBarItem.remoteForeground": "#ffffff",
+			// Buttons
+			"statusBarItem.hoverBackground": "#00000038",
+				// When debugging
+				"statusBar.debuggingBackground": "#fcce00",
+				"statusBar.debuggingForeground": "#0b0b0b",
+				// When no folder is selected
+				"statusBar.noFolderBackground": "#262626",
+				"statusBar.noFolderForeground": "#868686",
+				// When remote
+				"statusBarItem.remoteBackground": "#106399",
+				"statusBarItem.remoteForeground": "#ffffff",
+		
+		/* Settings */
+		"settings.focusedRowBackground": "#282d303d",
 	},
 
 
@@ -134,13 +141,14 @@
 
 		{
             "scope": [
-				"source.php meta.function-call",
 				"source.php meta.function-call support.function",
-				"source.php keyword.control.exit",
 				"source.php support.function",
+				"support.function.construct.output",
+				"source.php keyword.control.exit",
 				"source.php keyword.control.import.include",
+
             ],
-			"settings": {"foreground": "#ffffff","fontStyle": "italic"}
+			"settings": {"foreground": "#ebebeb","fontStyle": "bold italic"}
         },
 
 		{
@@ -196,11 +204,11 @@
 		
 		{
             "scope": [
+				"source.php storage",
 				"source.php meta.namespace",
 				"source.php meta.function",
 				"source.php meta.use keyword",
 				"source.php meta.class storage",
-				"source.php meta.class",
 				"source.php meta.class keyword.other.new",
 				"source.php keyword.control",
 				"source.php keyword.other.new",
@@ -227,9 +235,13 @@
 
 		{
             "scope": [
+				"source.php support.class",
+				"source.php meta.method-call entity.name.function",
 				"source.php meta.function-call entity.name.function",
 				"source.php meta.function-call support.other.namespace",
-				"source.php meta.function-call punctuation.separator.inheritance",
+				"source.php support.class punctuation.separator.inheritance",
+				"source.php support.other.namespace",
+				"source.php support.other.namespace punctuation.separator.inheritance",
 				"source.php meta.function-call support.class",
 				"source.php string.unquoted.index",
 				"source.php meta.use support",
@@ -555,7 +567,7 @@
 				"source.js variable.other.object",
 				"source.js variable.other.readwrite",
             ],
-			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+			"settings": {"foreground": "#1dbfff","fontStyle": ""}
         },
 
 		{
@@ -720,7 +732,7 @@
             "scope": [
 				"source.sql string.quoted.other.backtick",
             ],
-			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+			"settings": {"foreground": "#1dbfff","fontStyle": ""}
         },
 		
 		{
@@ -1023,32 +1035,32 @@
 		/**************************************************
 		 * CoffeeScript
 		 **************************************************/
-		{
-            "scope": [
-				"source.coffee",
-            ],
-			"settings": {"foreground": "#ffffff","fontStyle": ""}
-        },
+		// {
+        //     "scope": [
+		// 		"source.coffee",
+        //     ],
+		// 	"settings": {"foreground": "#ffffff","fontStyle": ""}
+        // },
 
-		{
-            "scope": [
-				"source.coffee comment",
-            ],
-			"settings": {"foreground": "#95927e","fontStyle": ""}
-        },
+		// {
+        //     "scope": [
+		// 		"source.coffee comment",
+        //     ],
+		// 	"settings": {"foreground": "#95927e","fontStyle": ""}
+        // },
 
-		{
-            "scope": [
-				"source.coffee string",
-            ],
-			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
-        },
+		// {
+        //     "scope": [
+		// 		"source.coffee string",
+        //     ],
+		// 	"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        // },
 
-		{
-            "scope": [
-				"source.coffee punctuation.definition.escape.backslash",
-            ],
-			"settings": {"foreground": "#ffa2e942","fontStyle": ""}
-        },
+		// {
+        //     "scope": [
+		// 		"source.coffee punctuation.definition.escape.backslash",
+        //     ],
+		// 	"settings": {"foreground": "#ffa2e942","fontStyle": ""}
+        // },
 	]
 }
