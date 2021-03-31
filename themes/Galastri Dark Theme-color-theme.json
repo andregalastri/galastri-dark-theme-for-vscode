@@ -38,7 +38,7 @@
 			"extensionButton.prominentHoverBackground": "#0ae99f",
 			"extensionButton.prominentForeground": "#0b0b0b",
 			// List
-			"list.hoverBackground": "#373a3bb4",
+			"list.hoverBackground": "#373a3b6c",
 			"list.focusOutline": "#00000000",
 			"list.inactiveSelectionBackground": "#0b476f", // background when unfocus the list item
 			"list.inactiveSelectionForeground": "#ffffff", // foreground when unfocus the list item
@@ -82,11 +82,11 @@
 		"panel.background": "#181818",
 
 		/* Fields */
-		"focusBorder": "#3e464b",
-		"dropdown.border": "#282d30",
-		"dropdown.background": "#282d30",
-		"input.border": "#282d30",
-		"input.background": "#282d30",
+		"focusBorder": "#0000005b",
+		"dropdown.border": "#282a2b",
+		"dropdown.background": "#282a2b",
+		"input.border": "#282a2b",
+		"input.background": "#282a2b",
 		
 		/* Right click menu */
 		"menu.background": "#101010",
@@ -176,6 +176,13 @@
 				"source.php meta.class entity.name.type.class",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.php storage.modifier.reference",
+            ],
+			"settings": {"foreground": "#97dd26","fontStyle": "bold"}
         },
 
 		{
