@@ -11,20 +11,28 @@
 			// Indent guides
 			"editorIndentGuide.background": "#ffffff06",
 			"editorIndentGuide.activeBackground": "#273d4b9c",
-			// Line highlight
+			// Line asdasd highlight
 			"editor.lineHighlightBackground": "#0099ff1e",
 
 			"editor.findMatchHighlightBackground": "#fffbb554",
 			"editor.findMatchHighlightBorder": "#161616",
 			"editor.findMatchBackground": "#ad8500",
 
+		/* Diff Editor */
+		"diffEditor.insertedTextBackground": "#15ca8e1f",
+		"diffEditor.removedTextBackground": "#ff00552f",
+		"diffEditor.diagonalFill": "#839ed81f",
 
 		/* Activity sidebar (Explorer, Source control, etc) */
-		"activityBarBadge.background": "#0099ff",
+		"activityBar.background": "#181818",
+		"activityBar.activeBorder": "#0099ff62",
+		"activityBar.border": "#202020",
+		"activityBarBadge.background": "#1568a0",
 
 		/* Sidebar panels (when you open a activity) */
-		"sideBar.background": "#292929",
+		"sideBar.background": "#181818",
 		"sideBar.foreground": "#acacac",
+		"sideBar.border": "#222222",
 			// Extension button (Install)
 			"extensionButton.prominentBackground": "#0cbd82",
 			"extensionButton.prominentHoverBackground": "#0ae99f",
@@ -35,26 +43,74 @@
 			"list.inactiveSelectionBackground": "#0b476f", // background when unfocus the list item
 			"list.inactiveSelectionForeground": "#ffffff", // foreground when unfocus the list item
 
+		/* Title bar */
+		"titleBar.activeBackground": "#1a1a1a",
+		"titleBar.inactiveBackground": "#1a1a1a",
+		"titleBar.border": "#161616",
+
+		/* Minimap */
+		"minimap.background": "#181818",
+		"minimap.findMatchHighlight": "#fffbb5a5",
+		"minimapSlider.background": "#ffffff09",
+
+		/* Menubar */
+		"menubar.selectionBackground": "#0b476f",
+		"menubar.selectionBorder": "#00000000",
+
+		/* Tabs and tab bar */
+		"tab.activeBackground": "#0b476f36",
+		"tab.inactiveBackground": "#1a1a1a",
+		"tab.hoverBackground": "#1e77b333",
+		"tab.border": "#00000000",
+		"tab.activeBorderTop": "#103955",
+		"editorGroupHeader.tabsBackground": "#1a1a1a",
+		"scrollbar.shadow": "#0000001f",
+
+		/* Scroll */
+		"scrollbarSlider.background": "#ffffff09",
+		"scrollbarSlider.hoverBackground": "#ffffff19",
+		"scrollbarSlider.activeBackground": "#ffffff29",
+		"editorOverviewRuler.border": "#00000000",
+		"editorOverviewRuler.background": "#151515",
+
+		/* Bracket open/close hightlight */
+		"editorBracketMatch.background": "#db179a",
+		"editorBracketMatch.border": "#00000000",
+
+		/* Bottom panel */
+		"panel.border": "#222222",
+		"panel.background": "#181818",
+
 		/* Fields */
-		"dropdown.border": "#00000000",
-			
+		"focusBorder": "#3e464b",
+		"dropdown.border": "#282d30",
+		"dropdown.background": "#282d30",
+		"input.border": "#282d30",
+		"input.background": "#282d30",
+		
 		/* Right click menu */
-		"menu.background": "#2e2e2e",
-		"menu.border": "#494949", // Only external border
+		"menu.background": "#101010",
+		"menu.border": "#101010", // Only external border
 		"menu.foreground": "#acacac",
+		"menu.separatorBackground": "#3a3a3a",
 
 		/* Status Bar (bottom of the screen)*/
 		"statusBar.background": "#262626",
 		"statusBar.foreground": "#868686",
-		// Buttons
-		"statusBarItem.hoverBackground": "#00000038",
-			// While debugging
-			"statusBar.debuggingBackground": "#fcce00",
-			"statusBar.debuggingForeground": "#0b0b0b",
-			"statusBar.noFolderBackground": "#262626",
-			"statusBar.noFolderForeground": "#868686",
-			"statusBarItem.remoteBackground": "#106399",
-			"statusBarItem.remoteForeground": "#ffffff",
+			// Buttons
+			"statusBarItem.hoverBackground": "#00000038",
+				// When debugging
+				"statusBar.debuggingBackground": "#fcce00",
+				"statusBar.debuggingForeground": "#0b0b0b",
+				// When no folder is selected
+				"statusBar.noFolderBackground": "#262626",
+				"statusBar.noFolderForeground": "#868686",
+				// When remote
+				"statusBarItem.remoteBackground": "#106399",
+				"statusBarItem.remoteForeground": "#ffffff",
+		
+		/* Settings */
+		"settings.focusedRowBackground": "#282d303d",
 	},
 
 
@@ -85,13 +141,14 @@
 
 		{
             "scope": [
-				"source.php meta.function-call",
 				"source.php meta.function-call support.function",
-				"source.php keyword.control.exit",
 				"source.php support.function",
+				"support.function.construct.output",
+				"source.php keyword.control.exit",
 				"source.php keyword.control.import.include",
+
             ],
-			"settings": {"foreground": "#ffffff","fontStyle": "italic"}
+			"settings": {"foreground": "#ebebeb","fontStyle": "bold italic"}
         },
 
 		{
@@ -147,11 +204,11 @@
 		
 		{
             "scope": [
+				"source.php storage",
 				"source.php meta.namespace",
 				"source.php meta.function",
 				"source.php meta.use keyword",
 				"source.php meta.class storage",
-				"source.php meta.class",
 				"source.php meta.class keyword.other.new",
 				"source.php keyword.control",
 				"source.php keyword.other.new",
@@ -178,9 +235,13 @@
 
 		{
             "scope": [
+				"source.php support.class",
+				"source.php meta.method-call entity.name.function",
 				"source.php meta.function-call entity.name.function",
 				"source.php meta.function-call support.other.namespace",
-				"source.php meta.function-call punctuation.separator.inheritance",
+				"source.php support.class punctuation.separator.inheritance",
+				"source.php support.other.namespace",
+				"source.php support.other.namespace punctuation.separator.inheritance",
 				"source.php meta.function-call support.class",
 				"source.php string.unquoted.index",
 				"source.php meta.use support",
@@ -506,7 +567,7 @@
 				"source.js variable.other.object",
 				"source.js variable.other.readwrite",
             ],
-			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+			"settings": {"foreground": "#1dbfff","fontStyle": ""}
         },
 
 		{
@@ -671,7 +732,7 @@
             "scope": [
 				"source.sql string.quoted.other.backtick",
             ],
-			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+			"settings": {"foreground": "#1dbfff","fontStyle": ""}
         },
 		
 		{
@@ -882,9 +943,16 @@
 
 		{
             "scope": [
-				"text.html.markdown markup.heading",
+				"text.html.markdown markup",
             ],
-			"settings": {"foreground": "#ff8aff","fontStyle": "bold"}
+			"settings": {"foreground": "#d68455","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"text.html.markdown markup.list punctuation.definition.list.begin",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": "bold"}
         },
 
 		{
@@ -905,14 +973,14 @@
 
 		{
             "scope": [
-				"text.html.markdown markup.list punctuation.definition.list.begin",
+				"text.html.markdown markup.heading",
             ],
 			"settings": {"foreground": "#ffc400","fontStyle": "bold"}
         },
 
 		{
             "scope": [
-				"text.html.markdown meta.link",
+				"text.html.markdown meta.link markup",
             ],
 			"settings": {"foreground": "#b086ee","fontStyle": "italic underline"}
         },
@@ -930,7 +998,7 @@
 
 		{
             "scope": [
-				"text.html.markdown meta.image",
+				"text.html.markdown meta.image markup",
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "italic underline"}
         },
@@ -942,5 +1010,57 @@
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "bold underline"}
         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * CoffeeScript
+		 **************************************************/
+		// {
+        //     "scope": [
+		// 		"source.coffee",
+        //     ],
+		// 	"settings": {"foreground": "#ffffff","fontStyle": ""}
+        // },
+
+		// {
+        //     "scope": [
+		// 		"source.coffee comment",
+        //     ],
+		// 	"settings": {"foreground": "#95927e","fontStyle": ""}
+        // },
+
+		// {
+        //     "scope": [
+		// 		"source.coffee string",
+        //     ],
+		// 	"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        // },
+
+		// {
+        //     "scope": [
+		// 		"source.coffee punctuation.definition.escape.backslash",
+        //     ],
+		// 	"settings": {"foreground": "#ffa2e942","fontStyle": ""}
+        // },
 	]
 }

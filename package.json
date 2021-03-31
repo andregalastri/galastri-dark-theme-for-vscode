@@ -1,24 +1,24 @@
 {
-    "name": "galastri-dark-theme-for-vscode",
-    "displayName": "Galastri Dark Theme For VS Code",
-    "description": "Theme for VS Code based on Delkos Dark Theme for Brackets",
-    "publisher": "andregalastri",
+	"name": "galastri-dark-theme-for-vscode",
+	"displayName": "Galastri Dark Theme For VS Code",
+	"description": "Theme for VS Code based on Delkos Dark Theme for Brackets",
+	"publisher": "andregalastri",
 	"license": "MIT",
-    "version": "0.3.0",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "maintainers": [
+	"version": "0.3.1",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"maintainers": [
 		"André Galastri <contato@andregalastri.com.br>"
 	],
-    "repository": {
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/andregalastri/galastri-dark-theme-for-vscode.git"
 	},
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
 		"galastri",
 		"delkos",
 		"brackets",
@@ -26,30 +26,35 @@
 		"theme",
 		"color-theme"
 	],
-    "icon": "icon.png",
-    "galleryBanner": {
+	"icon": "icon.png",
+	"galleryBanner": {
 		"color": "#161616",
 		"theme": "dark"
 	},
-    "contributes": {
-        "themes": [
-            {
-                "label": "Galastri Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Galastri Dark Theme-color-theme.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "php",
-                "scopeName": "source.php",
-                "path": "./syntaxes/php.tmLanguage.json"
-            },
-            {
-                "language": "php",
-                "scopeName": "text.html.php",
-                "path": "./syntaxes/html.tmLanguage.json"
-            }
-        ]
-    }
+	"contributes": {
+		"themes": [
+			{
+				"label": "Galastri Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Galastri Dark Theme-color-theme.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "php",
+				"scopeName": "source.php",
+				"path": "./syntaxes/php.tmLanguage.json"
+			},
+			{
+				"language": "php",
+				"scopeName": "text.html.php",
+				"path": "./syntaxes/html.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "43bb34f7-002c-4eda-a999-289376febf5b",
+		"publisherDisplayName": "André Galastri",
+		"publisherId": "7db4dca8-0269-47ea-ab66-0dfb8dceb45a"
+	}
 }
