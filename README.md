@@ -1,7 +1,7 @@
 # Galastri Dark Theme v0.03
-Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brackets-Delkos-Dark-Theme) for Brackets
+Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brackets-Delkos-Dark-Theme) for Brackets, with high contrast and strong colors!
 
-![image](https://user-images.githubusercontent.com/49572917/112898092-c811f600-90b6-11eb-8883-8e4a3cc57860.png)
+![image](https://user-images.githubusercontent.com/49572917/113118009-68fecf00-91e5-11eb-86cd-a3bbfc3030eb.png)
 
 ## Supported syntaxes
 - HTML / XML/ SVG
