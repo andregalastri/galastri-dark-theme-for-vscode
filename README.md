@@ -16,13 +16,16 @@ Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brack
 
 ### My preferred language doesn't have support :(
 I will try to add more syntaxes support, but as I program only with some programming languages, I need you to ask for inclusions.
-- Create a new issue
+- Open a new issue
 - Provide me some code examples of the language you'd like me to add
 
 I will try my best to include it as fast I can.
 
 ### Suggestions and bug reports are much appreciated :)
+Found some inconsistency? A bug or a fix?
+Do you have a suggestion of any kind? Open a issue and tell me how to improve! ❤
 
+And please, whenever possible, provide me some code examples for my better understanding.
 <br>
 
 ## Installation:
