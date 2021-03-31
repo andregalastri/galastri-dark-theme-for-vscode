@@ -19,7 +19,9 @@ I will try to add more syntaxes support, but as I program only with some program
 - Create a new issue
 - Provide me some code examples of the language you'd like me to add
 
-I will try my best to include it as best that I can.
+I will try my best to include it as fast I can.
+
+### Suggestions and bug reports are much appreciated :)
 
 <br>
 
