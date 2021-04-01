@@ -11,12 +11,20 @@
 			// Indent guides
 			"editorIndentGuide.background": "#ffffff06",
 			"editorIndentGuide.activeBackground": "#273d4b9c",
-			// Line asdasd highlight
+			// Line highlight
 			"editor.lineHighlightBackground": "#0099ff1e",
+			// Selection color
+			"editor.selectionBackground": "#0099ff4f",
+			"editor.inactiveSelectionBackground": "#0099ff4f",
+			// Highlight similar texts (matches the selection or the word where cursor position is on)
+			"editor.selectionHighlightBackground": "#0099ff4f",
+			"editor.selectionHighlightBorder": "#0099ff36",
+			// Highlight color when searching (CTRL + F)
+			"editor.findMatchBackground": "#ffcc23",
+			"editor.findMatchHighlightBackground": "#fffa9f",
+			// Block folding
+			"editor.foldBackground": "#00000000",
 
-			"editor.findMatchHighlightBackground": "#fffbb554",
-			"editor.findMatchHighlightBorder": "#161616",
-			"editor.findMatchBackground": "#ad8500",
 
 		/* Diff Editor */
 		"diffEditor.insertedTextBackground": "#15ca8e1f",
@@ -50,7 +58,8 @@
 
 		/* Minimap */
 		"minimap.background": "#181818",
-		"minimap.findMatchHighlight": "#fffbb5a5",
+		"minimap.selectionHighlight": "#0099ff9a",
+		"minimap.findMatchHighlight": "#fffbb523",
 		"minimapSlider.background": "#ffffff09",
 
 		/* Menubar */
@@ -72,6 +81,7 @@
 		"scrollbarSlider.activeBackground": "#ffffff29",
 		"editorOverviewRuler.border": "#00000000",
 		"editorOverviewRuler.background": "#151515",
+		"editorOverviewRuler.findMatchForeground": "#fffbb5a4",
 
 		/* Bracket open/close hightlight */
 		"editorBracketMatch.background": "#db179a",
@@ -155,6 +165,8 @@
             "scope": [
 				"source.php comment",
 				"source.php comment punctuation",
+				"source.php comment support.other.namespace",
+				"source.php comment support.other.namespace punctuation.separator.inheritance",
 				"source.php comment support.other",
 				"source.php comment.block.documentation support.class",
 				"source.php comment.block.documentation support punctuation",
@@ -169,12 +181,12 @@
 				"source.php meta.namespace entity.name",
 				"source.php meta.namespace entity.name punctuation",
 				"source.php meta.function entity.name",
-				"source.php meta.function variable",
 				"source.php meta.function support.function.magic",
 				"source.php meta.function support.function.constructor",
 				"source.php meta.function punctuation.definition.variable",
 				"source.php meta.class entity.name.type.class",
 				"source.php meta.use entity.other.alias",
+				"source.php meta.function variable",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -183,7 +195,7 @@
             "scope": [
 				"source.php storage.modifier.reference",
             ],
-			"settings": {"foreground": "#97dd26","fontStyle": "bold"}
+			"settings": {"foreground": "#00ff9d","fontStyle": "bold"}
         },
 
 		{
@@ -221,7 +233,7 @@
 				"source.php keyword.control",
 				"source.php keyword.other.new",
 				"source.php meta.function.parameter.typehinted punctuation.separator.delimiter",
-
+				"source.php meta.function.parameter.typehinted storage.type",
             ],
 			"settings": {"foreground": "#80b7ff","fontStyle": ""}
         },
@@ -704,6 +716,61 @@
 
 
 
+
+
+
+		/**************************************************
+		 * CoffeeScript (CSON)
+		 **************************************************/
+		{
+            "scope": [
+				"source.coffee",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee comment",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee string",
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.coffee punctuation.definition.escape.backslash",
+            ],
+			"settings": {"foreground": "#ffa2e942","fontStyle": ""}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/**************************************************
 		 * SQL
 		 **************************************************/
@@ -1018,57 +1085,5 @@
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "bold underline"}
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		/**************************************************
-		 * CoffeeScript
-		 **************************************************/
-		// {
-        //     "scope": [
-		// 		"source.coffee",
-        //     ],
-		// 	"settings": {"foreground": "#ffffff","fontStyle": ""}
-        // },
-
-		// {
-        //     "scope": [
-		// 		"source.coffee comment",
-        //     ],
-		// 	"settings": {"foreground": "#95927e","fontStyle": ""}
-        // },
-
-		// {
-        //     "scope": [
-		// 		"source.coffee string",
-        //     ],
-		// 	"settings": {"foreground": "#ffa2ea","fontStyle": ""}
-        // },
-
-		// {
-        //     "scope": [
-		// 		"source.coffee punctuation.definition.escape.backslash",
-        //     ],
-		// 	"settings": {"foreground": "#ffa2e942","fontStyle": ""}
-        // },
 	]
 }
