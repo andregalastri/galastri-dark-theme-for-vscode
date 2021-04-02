@@ -60,7 +60,9 @@
 		"minimap.background": "#181818",
 		"minimap.selectionHighlight": "#0099ff9a",
 		"minimap.findMatchHighlight": "#fffbb523",
-		"minimapSlider.background": "#ffffff09",
+		"minimapSlider.background": "#ffffff19",
+		"minimapSlider.activeBackground": "#ffffff1e",
+		"minimapSlider.hoverBackground": "#ffffff1e",
 
 		/* Menubar */
 		"menubar.selectionBackground": "#0b476f",
@@ -76,10 +78,10 @@
 		"scrollbar.shadow": "#0000001f",
 
 		/* Scroll */
-		"scrollbarSlider.background": "#ffffff09",
-		"scrollbarSlider.hoverBackground": "#ffffff19",
-		"scrollbarSlider.activeBackground": "#ffffff29",
-		"editorOverviewRuler.border": "#00000000",
+		"scrollbarSlider.background": "#ffffff32",
+		"scrollbarSlider.hoverBackground": "#ffffff47",
+		"scrollbarSlider.activeBackground": "#ffffff47",
+		"editorOverviewRuler.border": "#232323",
 		"editorOverviewRuler.background": "#151515",
 		"editorOverviewRuler.findMatchForeground": "#fffbb5a4",
 
