@@ -27,8 +27,8 @@ And please, whenever possible, provide me some code examples for my better under
 ---
 
 ## Installation:
-- Clone or download this repository inside one of this folders:
-  **Linux**: `$HOME/.vscode/extensions/`
+- Clone or download this repository inside one of this folders:<br>
+  **Linux**: `$HOME/.vscode/extensions/`<br>
   **Windows**: `%APPDATA%\Microsoft\Visual Studio Code\extensions\`
 
 ## Font recommendation
