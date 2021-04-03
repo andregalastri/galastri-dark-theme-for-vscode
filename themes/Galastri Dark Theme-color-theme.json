@@ -544,7 +544,7 @@
 				"source.js support.class.builtin",
 				"source.js meta.function punctuation.accessor",
             ],
-			"settings": {"foreground": "#ffffff","fontStyle": "italic"}
+			"settings": {"foreground": "#ebebeb","fontStyle": "italic bold"}
         },
 
 		{
@@ -588,16 +588,34 @@
             "scope": [
 				"source.js variable.other.object",
 				"source.js variable.other.readwrite",
+				"source.js meta.export.default variable.other.readwrite",
             ],
-			"settings": {"foreground": "#1dbfff","fontStyle": ""}
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+        },
+		
+		{
+            "scope": [
+				"source.js meta.template punctuation.definition.template-expression",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
         },
 
 		{
             "scope": [
 				"source.js variable.other.constant",
-				"source.js support.class",
+				"source.js support.constant",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.js meta.import variable.other.readwrite.alias",
+				"source.js meta.export entity.name",
+				"source.js meta.export entity.other.inherited-class",
+				"source.js support.class",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
         },
 
 		{
@@ -606,6 +624,7 @@
 				"source.js meta.function-call entity.name",
 				"source.js meta.objectliteral meta.object-literal.key",
 				"source.js meta.class variable.other.property",
+				"source.js variable.other.object.property",
 				"source.js variable.other.property",
 				"source.js entity.name.function",
             ],
@@ -617,13 +636,14 @@
 				"source.js meta.method.declaration storage",
 				"source.js variable.parameter",
 				"source.js meta.definition.variable",
+				"source.js meta.definition.variable entity.name.function",
 				"source.js meta.definition.variable variable.other.readwrite",
 				"source.js entity.name.type.class",
 				"source.js meta.class meta.definition.method entity.name",
 				"source.js meta.definition.function entity.name",
 				"source.js meta.definition.variable variable.other.constant",
 				"source.js meta.definition.function entity.name.function",
-				"source.js meta.export.default variable.other.readwrite",
+				"source.js meta.definition.property",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -639,6 +659,61 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * JSX (React)
+		 **************************************************/
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx keyword.operator.assignment",
+				"source.js.jsx meta.tag.js.jsx punctuation",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag punctuation.definition.tag",
+				"source.js.jsx meta.tag entity.name",
+            ],
+			"settings": {"foreground": "#ec4fb8","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx punctuation.definition.string",
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx meta.tag.attributes",
+            ],
+			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx support.class.component",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
 
 
 
@@ -809,7 +884,7 @@
             "scope": [
 				"source.sql string.quoted.other.backtick",
             ],
-			"settings": {"foreground": "#1dbfff","fontStyle": ""}
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
         },
 		
 		{
