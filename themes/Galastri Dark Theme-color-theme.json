@@ -58,8 +58,8 @@
 
 		/* Minimap */
 		"minimap.background": "#181818",
-		"minimap.selectionHighlight": "#0099ff9a",
-		"minimap.findMatchHighlight": "#fffbb523",
+		"minimap.selectionHighlight": "#0099ff",
+		"minimap.findMatchHighlight": "#fffbb59a",
 		"minimapSlider.background": "#ffffff19",
 		"minimapSlider.activeBackground": "#ffffff1e",
 		"minimapSlider.hoverBackground": "#ffffff1e",
