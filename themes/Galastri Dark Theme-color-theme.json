@@ -180,6 +180,7 @@
 
 		{
             "scope": [
+				"source.php meta.trait entity.name",
 				"source.php meta.namespace entity.name",
 				"source.php meta.namespace entity.name punctuation",
 				"source.php meta.function entity.name",
