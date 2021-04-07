@@ -259,6 +259,7 @@
 		{
             "scope": [
 				"source.php support.class",
+				"source.php meta.other.inherited-class",
 				"source.php meta.method-call entity.name.function",
 				"source.php meta.function-call entity.name.function",
 				"source.php meta.function-call support.other.namespace",
