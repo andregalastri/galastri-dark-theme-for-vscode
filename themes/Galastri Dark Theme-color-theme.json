@@ -197,8 +197,9 @@
 		{
             "scope": [
 				"source.php storage.modifier.reference",
+				"source.php keyword.operator.nullable-type",
             ],
-			"settings": {"foreground": "#00ff9d","fontStyle": "bold"}
+			"settings": {"foreground": "#00e78f","fontStyle": "bold"}
         },
 
 		{
