@@ -158,7 +158,6 @@
 				"support.function.construct.output",
 				"source.php keyword.control.exit",
 				"source.php keyword.control.import.include",
-
             ],
 			"settings": {"foreground": "#ebebeb","fontStyle": "bold italic"}
         },
@@ -166,6 +165,7 @@
 		{
             "scope": [
 				"source.php comment",
+				"source.php comment keyword.other",
 				"source.php comment punctuation",
 				"source.php comment support.other.namespace",
 				"source.php comment support.other.namespace punctuation.separator.inheritance",
@@ -181,7 +181,6 @@
 		{
             "scope": [
 				"source.php meta.trait entity.name",
-				"source.php entity.other.inherited-class",
 				"source.php meta.interface entity.name",
 				"source.php meta.namespace entity.name",
 				"source.php meta.namespace entity.name punctuation",
@@ -231,6 +230,7 @@
 		{
             "scope": [
 				"source.php storage",
+				"source.php keyword.other",
 				"source.php meta.namespace",
 				"source.php meta.function",
 				"source.php meta.use keyword",
