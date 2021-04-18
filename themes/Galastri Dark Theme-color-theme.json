@@ -181,6 +181,8 @@
 		{
             "scope": [
 				"source.php meta.trait entity.name",
+				"source.php entity.other.inherited-class",
+				"source.php meta.interface entity.name",
 				"source.php meta.namespace entity.name",
 				"source.php meta.namespace entity.name punctuation",
 				"source.php meta.function entity.name",
@@ -273,8 +275,8 @@
 				"source.php meta.use support punctuation",
 				"source.php meta.class support",
 				"source.php meta.class support punctuation",
-				"source.php meta.class meta.method-call",
-				"source.php meta.class variable.other.property",
+				"source.php meta.method-call",
+				"source.php variable.other.property",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
         },
