@@ -206,6 +206,7 @@
 		{
             "scope": [
 				"source.php constant.numeric",
+				"source.php constant.numeric punctuation",
             ],
 			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
         },
@@ -216,6 +217,8 @@
 				"source.php string punctuation",
 				"source.php string keyword",
 				"source.php string keyword.operator",
+				"source.php string source.sql",
+				"source.php string source.sql keyword.other",
             ],
 			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
         },
@@ -238,6 +241,7 @@
 				"source.php meta.class keyword.other.new",
 				"source.php keyword.control",
 				"source.php keyword.other.new",
+				"source.php keyword.operator.type",
 				"source.php meta.function.parameter.typehinted punctuation.separator.delimiter",
 				"source.php meta.function.parameter.typehinted storage.type",
             ],
