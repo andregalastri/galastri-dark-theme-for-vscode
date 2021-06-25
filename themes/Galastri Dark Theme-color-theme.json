@@ -167,6 +167,7 @@
 				"source.php comment",
 				"source.php comment keyword.other",
 				"source.php comment punctuation",
+				"source.php comment support.class punctuation.separator.inheritance",
 				"source.php comment support.other.namespace",
 				"source.php comment support.other.namespace punctuation.separator.inheritance",
 				"source.php comment support.other",
@@ -219,6 +220,8 @@
 				"source.php string keyword.operator",
 				"source.php string source.sql",
 				"source.php string source.sql keyword.other",
+				"source.php string source.sql constant.numeric",
+				"source.php string source.sql support.function",
             ],
 			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
         },
@@ -543,6 +546,7 @@
             "scope": [
 				"source.js comment",
 				"source.js comment storage",
+				"source.js comment storage.type",
             ],
 			"settings": {"foreground": "#95927e","fontStyle": ""}
         },
@@ -579,6 +583,7 @@
 				"source.js keyword.operator.expression",
 				"source.js keyword.operator.new",
 				"source.js meta.method.declaration storage.type.property",
+				"source.js meta.method.declaration storage.type.function",
 				"source.js support.class.builtin",
 				"source.js support.type.object",
 				"source.js support.variable.property",
