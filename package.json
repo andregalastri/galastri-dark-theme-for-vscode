@@ -31,6 +31,12 @@
 		"color": "#161616",
 		"theme": "dark"
 	},
+	"extensionDependencies": [
+		"mrmlnc.vscode-apache",
+		"jeff-hykin.better-shellscript-syntax",
+		"mblode.twig-language-2",
+		"onecentlin.laravel-blade"
+	],
 	"contributes": {
 		"themes": [
 			{
