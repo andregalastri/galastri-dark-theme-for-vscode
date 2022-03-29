@@ -1,4 +1,4 @@
-# Galastri Dark Theme 0.03
+# Galastri Dark Theme 0.3
 Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brackets-Delkos-Dark-Theme) for Brackets, with high contrast and strong colors!
 
 ![image](https://user-images.githubusercontent.com/49572917/113118009-68fecf00-91e5-11eb-86cd-a3bbfc3030eb.png)
