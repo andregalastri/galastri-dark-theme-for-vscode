@@ -667,7 +667,7 @@
 				"text.html.php.blade keyword.blade",
 				"text.html.php.blade punctuation.section.embedded.begin",
 				"text.html.php.blade punctuation.section.embedded.end",
-				"text.html.php.blade entity.name.function",
+				"text.html.php.blade entity.name.function.blade",
             ],
 			"settings": {"foreground": "#80b7ff","fontStyle": ""}
         },
