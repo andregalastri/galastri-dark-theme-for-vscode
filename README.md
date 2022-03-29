@@ -35,5 +35,5 @@ And please, whenever possible, provide me some code examples for my better under
 I recommend using the default Brackets font [Source Code Pro Font](https://github.com/adobe-fonts/source-code-pro)
 
 ## Notes
-1. This theme is configured to work **only with specific syntax support**. If your language isn't in the list above, it will probably don't work. I made it this way because it is more simple to keep track of the synxtax highlight variables, even though the theme main file become a little bigger.
-2. I made some changes from the original Delkos theme, some changes are to suit my own taste and another are because the limitations with the way some syntax highlight work in VS Code that differs the way Brackets does.
+1. This theme is configured to work **only with specific syntax support**. If your language isn't in the list above, it probably won't work. I made it this way because it is simpler to keep track of the synxtax highlight variables, even though the theme main file become a little bigger.
+2. I made some changes from the original Delkos theme, some changes are to suit my own taste and others are because the limitations with the way some syntax highlights work in VS Code that differs the way Brackets does.

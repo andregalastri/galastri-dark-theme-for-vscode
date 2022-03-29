@@ -328,7 +328,6 @@
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
         },
 
-
 		{
             "scope": [
 				"source.css comment"
@@ -472,6 +471,8 @@
 				"text.html",
 				"text.html meta.tag.metadata.processing.xml entity.name",
 				"text.html meta.tag.metadata.processing.xml punctuation.definition.tag",
+				"text.html meta.attribute punctuation.section.embedded.begin.php",
+				"text.html meta.attribute punctuation.section.embedded.end.php",
 				"text.xml",
 				"text.xml meta.tag.preprocessor.xml entity.name",
 				"text.xml meta.tag.preprocessor.xml punctuation.definition.tag",
@@ -584,6 +585,7 @@
 				"source.js keyword.operator.new",
 				"source.js meta.method.declaration storage.type.property",
 				"source.js meta.method.declaration storage.type.function",
+				"source.js meta.method.declaration meta.var.expr storage",
 				"source.js support.class.builtin",
 				"source.js support.type.object",
 				"source.js support.variable.property",
@@ -1009,6 +1011,8 @@
 
 		/**************************************************
 		 * APACHE CONFIG FILE
+		 * Requires Apache Conf extension
+		 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache
 		 **************************************************/
 		{
             "scope": [
@@ -1175,6 +1179,68 @@
 				"text.html.markdown meta.image punctuation.definition.string",
             ],
 			"settings": {"foreground": "#e966bd","fontStyle": "bold underline"}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * Shell Script
+		 * Requires Better Shell Syntax extension
+		 * https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax
+		 **************************************************/
+		{
+			"scope": [
+				"source.shell comment"
+			],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+		},
+
+
+		{
+            "scope": [
+				"source.shell entity.name",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.shell constant",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.shell string",
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.shell variable",
+            ],
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
         },
 	]
 }
