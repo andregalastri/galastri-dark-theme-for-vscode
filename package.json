@@ -4,7 +4,7 @@
 	"description": "Theme for VS Code based on Delkos Dark Theme for Brackets",
 	"publisher": "andregalastri",
 	"license": "MIT",
-	"version": "0.3.9",
+	"version": "0.3.10",
 	"engines": {
 		"vscode": "^1.54.0"
 	},

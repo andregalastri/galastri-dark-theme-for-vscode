@@ -435,7 +435,7 @@
 				"source.css invalid.deprecated",
 				"source.css support.function",
             ],
-			"settings": {"foreground": "#c5a2fa","fontStyle": ""}
+			"settings": {"foreground": "#b086ee","fontStyle": "bold"}
         },
 
 		{
@@ -499,6 +499,9 @@
 		{
             "scope": [
 				"text.html meta.tag entity.name",
+				"text.html punctuation.definition.tag",
+				"text.html entity.name.tag.style",
+				"text.html entity.name.tag.script",
 				"text.html meta.tag punctuation.definition.tag",
 				"text.xml meta.tag entity.name",
 				"text.xml meta.tag punctuation.definition.tag",
@@ -515,6 +518,180 @@
         },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * Twig
+		 * Requires Twig Language 2 for highlights.
+		 * https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2
+		 *
+		 * Note: Even with this extension, the highlights are a bit incomplete, but not because of
+		 * my extension. The problem is with the highlight extensions for Twig, I just can't find a
+		 * good and complete extension, all of them have problems and missing tokens and scopes.
+		 **************************************************/
+		{
+            "scope": [
+				"text.html.twig",
+				"text.html.twig punctuation",
+				"text.html.twig keyword.operator.assignment",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig meta.tag.template support.function",
+            ],
+			"settings": {"foreground": "#ebebeb","fontStyle": "bold italic"}
+        },
+
+		{
+            "scope": [
+				"text.html.twig comment.block punctuation",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig punctuation.section.tag",
+            ],
+			"settings": {"foreground": "#e7c500","fontStyle": "italic"}
+        },
+
+		{
+			"scope": [
+				"text.html.twig string",
+				"text.html.twig string punctuation.definition",
+			],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+		},
+
+		{
+            "scope": [
+				"text.html.twig meta.tag entity.other",
+				"text.html.twig entity.other.attribute-name.html",
+            ],
+			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig variable",
+            ],
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig variable.other.property",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig meta.tag.template keyword.control",
+				"text.html.twig meta.tag.template keyword.operator",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.twig meta.tag.template constant.language",
+            ],
+			"settings": {"foreground": "#b086ee","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"text.html.twig meta.tag.template constant.numeric",
+            ],
+			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * Blade
+		 * Requires Laravel Blade Snippets
+		 * https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade
+		 **************************************************/
+		 {
+            "scope": [
+				"text.html.php.blade",
+				"text.html.php.blade meta.directive",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.php.blade support.function.construct.begin",
+				"text.html.php.blade support.function.construct.end",
+            ],
+			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"text.html.php.blade keyword.blade",
+				"text.html.php.blade punctuation.section.embedded.begin",
+				"text.html.php.blade punctuation.section.embedded.end",
+				"text.html.php.blade entity.name.function",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.php.blade punctuation.definition.variable",
+            ],
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"text.html.php.blade source.php entity.name.class",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+			"scope": [
+				"text.html.php.blade string",
+			],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+		},
 
 
 

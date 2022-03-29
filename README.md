@@ -7,12 +7,15 @@ Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brack
 - HTML / XML/ SVG
 - JSON
 - PHP
+- Symfony's Twig (install [Twig Language 2 by mblode](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2))
+- Laravel's Blade (install [Laravel Blade Snippets by Winnie Lin](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade))
 - Javascript (vanilla)
 - CSS
 - Markdown
 - Apache Configuration Files (install [Apache Conf Extension by mrmlnc](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache))
 - SQL
 - INI files
+- Shell Script (install [Better Shell Syntax by Jeff Hykin](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax))
 
 ### Partially supported syntaxes
 These are syntaxes that are still in development or isn't tested enough.
@@ -20,14 +23,18 @@ These are syntaxes that are still in development or isn't tested enough.
 - CSON
 
 ### Suggestions and bug reports are much appreciated :)
-Found some inconsistency? A bug or a fix? Want me to add more syntaxes? Open a issue and tell me how to improve! ❤
+Found some inconsistency? A bug or or improvement? Want me to add more syntaxes? Open a issue and tell me how to improve! ❤
 
 And please, whenever possible, provide me some code examples for my better understanding.
 
 ---
 
 ## Installation:
-- Clone or download this repository inside one of this folders:<br>
+- Just search for "Galastri" in the VSCode's Marketplace and install it!
+
+or
+
+- Clone (or download and extract) this repository inside one of this folders:<br>
   **Linux**: `$HOME/.vscode/extensions/`<br>
   **Windows**: `%APPDATA%\Microsoft\Visual Studio Code\extensions\`
 
