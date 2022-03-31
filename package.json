@@ -4,7 +4,7 @@
 	"description": "Theme for VS Code based on Delkos Dark Theme for Brackets",
 	"publisher": "andregalastri",
 	"license": "MIT",
-	"version": "0.3.11",
+	"version": "0.3.12",
 	"engines": {
 		"vscode": "^1.54.0"
 	},
@@ -35,7 +35,8 @@
 		"mrmlnc.vscode-apache",
 		"jeff-hykin.better-shellscript-syntax",
 		"mblode.twig-language-2",
-		"onecentlin.laravel-blade"
+		"onecentlin.laravel-blade",
+		"kasik96.latte"
 	],
 	"contributes": {
 		"themes": [
@@ -45,7 +46,13 @@
 				"path": "./themes/Galastri Dark Theme-color-theme.json"
 			}
 		],
-		"grammars": []
+		"grammars": [
+			{
+				"language": "latte",
+				"scopeName": "source.latte",
+				"path": "./syntaxes/latte.tmLanguage"
+			}
+		]
 	},
 	"__metadata": {
 		"id": "43bb34f7-002c-4eda-a999-289376febf5b",

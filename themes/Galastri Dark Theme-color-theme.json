@@ -537,7 +537,7 @@
 
 		/**************************************************
 		 * Twig
-		 * Requires Twig Language 2 for highlights.
+		 * Requires Twig Language 2 extension.
 		 * https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2
 		 *
 		 * Note: Even with this extension, the highlights are a bit incomplete, but not because of
@@ -643,7 +643,7 @@
 
 		/**************************************************
 		 * Blade
-		 * Requires Laravel Blade Snippets
+		 * Requires Laravel Blade Snippets extension.
 		 * https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade
 		 **************************************************/
 		 {
@@ -697,6 +697,108 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * Latte
+		 * Requires Nette Latte + Neon extension.
+		 * https://marketplace.visualstudio.com/items?itemName=kasik96.latte
+		 **************************************************/
+		{
+            "scope": [
+				"source.latte",
+				"source.latte keyword",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+		{
+            "scope": [
+				"source.latte keyword.other.function-name",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": "bold italic"}
+        },
+
+		{
+            "scope": [
+				"source.latte comment",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+			"scope": [
+				"source.latte string",
+			],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+		},
+		
+		{
+            "scope": [
+				"source.latte meta.tag entity.name",
+				"source.latte punctuation.definition.tag",
+				"source.latte entity.name.tag.style",
+				"source.latte entity.name.tag.script",
+				"source.latte meta.tag punctuation.definition.tag",
+            ],
+			"settings": {"foreground": "#ec4fb8","fontStyle": ""}
+        },
+		{
+            "scope": [
+				"source.latte variable.other.property.latte",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.latte meta.attribute entity.other",
+            ],
+			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.latte variable",
+            ],
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.latte tag.begin",
+				"source.latte tag.end",
+            ],
+			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.latte keyword.control",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.latte keyword.operator.logical",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": "underline"}
+        },
+
+		{
+            "scope": [
+				"source.latte constant.numeric",
+            ],
+			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
+        },
 
 
 
@@ -1188,7 +1290,7 @@
 
 		/**************************************************
 		 * APACHE CONFIG FILE
-		 * Requires Apache Conf extension
+		 * Requires Apache Conf extension.
 		 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache
 		 **************************************************/
 		{
@@ -1381,7 +1483,7 @@
 
 		/**************************************************
 		 * Shell Script
-		 * Requires Better Shell Syntax extension
+		 * Requires Better Shell Syntax extension.
 		 * https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax
 		 **************************************************/
 		{
