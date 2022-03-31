@@ -7,18 +7,19 @@ Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brack
 - HTML / XML/ SVG
 - JSON
 - PHP
-- Symfony's Twig (install [Twig Language 2 by mblode](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2))
-- Laravel's Blade (install [Laravel Blade Snippets by Winnie Lin](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade))
+- Symfony's Twig (requires [Twig Language 2 by mblode](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2))
+- Laravel's Blade (requires [Laravel Blade Snippets by Winnie Lin](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade))
 - Javascript (vanilla)
 - CSS
 - Markdown
-- Apache Configuration Files (install [Apache Conf Extension by mrmlnc](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache))
+- Apache Configuration Files (requires [Apache Conf Extension by mrmlnc](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache))
 - SQL
 - INI files
-- Shell Script (install [Better Shell Syntax by Jeff Hykin](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax))
+- Shell Script (requires [Better Shell Syntax by Jeff Hykin](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax))
 
 ### Partially supported syntaxes
 These are syntaxes that are still in development or isn't tested enough.
+- Latte - PHP Template Engine (requires [Nette Latte + Neon by Martin Kase](https://marketplace.visualstudio.com/items?itemName=kasik96.latte))
 - JSX (React)
 - CSON
 
