@@ -19,6 +19,10 @@
 			<string>comment.block.latte</string>
 		</dict>
 		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>\{\{?(?!\s)</string>
 			<key>beginCaptures</key>
@@ -45,7 +49,28 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#strings</string>
+					<string>#latte</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>latte</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\'(.*?)\'</string>
+					<key>name</key>
+					<string>string.quoted.single.latte</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\"(.*?)\"</string>
+					<key>name</key>
+					<string>string.quoted.double.latte</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -73,13 +98,19 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;=\{)(_|=|breakIf|case|continueIf|contentType|control|debugbreak|default|bdump|dump|elseifset|elseif|else|extends|formPrint|include|import|inputError|input|layout|link|php|plink|r|status|templateType|templatePrint|use|varType|varPrint|var|parameters)\s*</string>
+					<string>(?&lt;=\{)(breakIf|case|continueIf|contentType|control|debugbreak|default|bdump|dump|elseifset|elseif|else|extends|formPrint|include|import|inputError|input|layout|link|php|plink|r|status|templateType|templatePrint|use|varType|varPrint|var|parameters)\s*</string>
 					<key>name</key>
 					<string>keyword.control.single.latte</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;=\{)/?(block|cache|capture|define|embed|first|foreach|form|for|ifset|ifCurrent|ifchanged|if|label|last|l|sandbox|sep|snippetArea|snippet|switch|syntax|try|iterateWhile|while)\s*</string>
+					<string>(?&lt;=\{)(_|=)</string>
+					<key>name</key>
+					<string>keyword.control.print.latte</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(?&lt;=\{)/?(block|cache|capture|define|do|embed|first|foreach|form|for|ifset|ifCurrent|ifchanged|if|label|last|l|sandbox|sep|snippetArea|snippet|switch|syntax|try|iterateWhile|while)(?![a-zA-Z0-9])\s*</string>
 					<key>name</key>
 					<string>keyword.control.pair.latte</string>
 				</dict>
@@ -107,18 +138,6 @@
 					<key>match</key>
 					<string>(?&lt;=\s?)(===|==|&lt;=&gt;|&gt;=|&lt;=|&lt;|&gt;)\s?</string>
 				</dict>
-				<!-- <dict>
-					<key>captures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>keyword.operator.bitwise.latte</string>
-						</dict>
-					</dict>
-					<key>match</key>
-					<string>(?&lt;=\s)(\|(?!\|)|&)\s</string>
-				</dict> -->
 				<dict>
 					<key>captures</key>
 					<dict>
@@ -129,7 +148,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(?&lt;=\s)(\!|as|and|AND|And|or|OR|Or|\|\||&amp;&amp;)\s</string>
+					<string>(?&lt;=\s)(\!|as|and|AND|And|or|OR|Or|\|\||&amp;&amp;|from)\s</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -159,31 +178,6 @@
 					</dict>
 					<key>match</key>
 					<string>.*?(\|)(\w+)(?:\:)*</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>text.html.basic</string>
-		</dict>
-	</array>
-	<key>repository</key>
-	<dict>
-		<key>strings</key>
-		<dict>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>match</key>
-					<string>\'(.*?)\'</string>
-					<key>name</key>
-					<string>string.quoted.single.latte</string>
-				</dict>
-				<dict>
-					<key>match</key>
-					<string>\"(.*?)\"</string>
-					<key>name</key>
-					<string>string.quoted.double.latte</string>
 				</dict>
 			</array>
 		</dict>

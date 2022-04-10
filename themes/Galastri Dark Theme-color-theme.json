@@ -716,6 +716,7 @@
             "scope": [
 				"source.latte",
 				"source.latte keyword",
+				"source.latte keyword.control.print",
             ],
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
         },
@@ -753,6 +754,7 @@
 		{
             "scope": [
 				"source.latte variable.other.property.latte",
+				"source.latte keyword.control.pair.latte",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
         },
@@ -946,6 +948,166 @@
 		{
             "scope": [
 				"source.js constant.numeric",
+            ],
+			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/**************************************************
+		 * Typescript (Vanilla)
+		 **************************************************/
+		 {
+            "scope": [
+				"source.ts",
+				"source.ts meta.object-literal punctuation",
+				"source.ts storage.type.function.arrow",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts comment",
+				"source.ts comment storage",
+				"source.ts comment storage.type",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts support.function",
+				"source.ts support.class.builtin",
+				"source.ts meta.function punctuation.accessor",
+            ],
+			"settings": {"foreground": "#ebebeb","fontStyle": "italic bold"}
+        },
+
+		{
+            "scope": [
+				"source.ts string",
+				"source.ts meta.object-literal string punctuation"
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts constant.language",
+            ],
+			"settings": {"foreground": "#b086ee","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.ts storage",
+				"source.ts variable.language.this",
+				"source.ts keyword.control",
+				"source.ts keyword.operator.expression",
+				"source.ts keyword.operator.new",
+				"source.ts meta.method.declaration storage.type.property",
+				"source.ts meta.method.declaration storage.type.function",
+				"source.ts meta.method.declaration meta.var.expr storage",
+				"source.ts support.class.builtin",
+				"source.ts support.type.object",
+				"source.ts support.variable.property",
+				"source.ts support.type.primitive",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts keyword.operator.logical",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": "underline"}
+        },
+
+		{
+            "scope": [
+				"source.ts variable.other.object",
+				"source.ts variable.other.readwrite",
+				"source.ts meta.export.default variable.other.readwrite",
+            ],
+			"settings": {"foreground": "#46d4ff","fontStyle": ""}
+        },
+		
+		{
+            "scope": [
+				"source.ts meta.template punctuation.definition.template-expression",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts variable.other.constant",
+				"source.ts support.constant",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.ts meta.import variable.other.readwrite.alias",
+				"source.ts meta.export entity.name",
+				"source.ts meta.export entity.other.inherited-class",
+				"source.ts support.class",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts meta.function-call variable.other.object.property",
+				"source.ts meta.function-call entity.name",
+				"source.ts meta.objectliteral meta.object-literal.key",
+				"source.ts meta.class variable.other.property",
+				"source.ts variable.other.object.property",
+				"source.ts variable.other.property",
+				"source.ts entity.name.function",
+            ],
+			"settings": {"foreground": "#d2f386","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts meta.method.declaration storage",
+				"source.ts variable.parameter",
+				"source.ts meta.definition.variable",
+				"source.ts meta.definition.variable entity.name.function",
+				"source.ts meta.definition.variable variable.other.readwrite",
+				"source.ts entity.name.type.class",
+				"source.ts meta.class meta.definition.method entity.name",
+				"source.ts meta.definition.function entity.name",
+				"source.ts meta.definition.variable variable.other.constant",
+				"source.ts meta.definition.function entity.name.function",
+				"source.ts meta.definition.property",
+            ],
+			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.ts constant.numeric",
             ],
 			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
         },
