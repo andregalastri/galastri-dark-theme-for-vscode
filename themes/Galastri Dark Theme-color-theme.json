@@ -819,6 +819,7 @@
             "scope": [
 				"source.js",
 				"source.js meta.object-literal punctuation",
+				"source.js meta.template.expression",
 				"source.js storage.type.function.arrow",
             ],
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
@@ -907,7 +908,6 @@
 
 		{
             "scope": [
-				"source.js meta.import variable.other.readwrite.alias",
 				"source.js meta.export entity.name",
 				"source.js meta.export entity.other.inherited-class",
 				"source.js support.class",
@@ -941,6 +941,7 @@
 				"source.js meta.definition.variable variable.other.constant",
 				"source.js meta.definition.function entity.name.function",
 				"source.js meta.definition.property",
+				"source.js meta.import variable.other.readwrite.alias",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -978,6 +979,7 @@
             "scope": [
 				"source.ts",
 				"source.ts meta.object-literal punctuation",
+				"source.ts meta.template.expression",
 				"source.ts storage.type.function.arrow",
             ],
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
@@ -1018,6 +1020,15 @@
 
 		{
             "scope": [
+				"source.ts meta.type.annotation support.type.primitive",
+				"source.ts meta.type.annotation keyword.operator.type.ts",
+				"source.ts meta.type.annotation support.type.builtin",
+            ],
+			"settings": {"foreground": "#80b7ff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
 				"source.ts storage",
 				"source.ts variable.language.this",
 				"source.ts keyword.control",
@@ -1029,7 +1040,7 @@
 				"source.ts support.class.builtin",
 				"source.ts support.type.object",
 				"source.ts support.variable.property",
-				"source.ts support.type.primitive",
+				"source.ts meta.return.type support.type.primitive",
             ],
 			"settings": {"foreground": "#80b7ff","fontStyle": ""}
         },
@@ -1067,9 +1078,9 @@
 
 		{
             "scope": [
-				"source.ts meta.import variable.other.readwrite.alias",
 				"source.ts meta.export entity.name",
 				"source.ts meta.export entity.other.inherited-class",
+				"source.ts meta.class entity.other",
 				"source.ts support.class",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
@@ -1084,6 +1095,8 @@
 				"source.ts variable.other.object.property",
 				"source.ts variable.other.property",
 				"source.ts entity.name.function",
+				"source.ts variable.other.enummember",
+				"source.ts meta.type.annotation entity.name.type",
             ],
 			"settings": {"foreground": "#d2f386","fontStyle": ""}
         },
@@ -1101,6 +1114,8 @@
 				"source.ts meta.definition.variable variable.other.constant",
 				"source.ts meta.definition.function entity.name.function",
 				"source.ts meta.definition.property",
+				"source.ts entity.name.type",
+				"source.ts meta.import variable.other.readwrite.alias",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -1110,6 +1125,13 @@
 				"source.ts constant.numeric",
             ],
 			"settings": {"foreground": "#ff6161","fontStyle": "bold"}
+        },
+
+		{
+            "scope": [
+				"source.ts meta.parameters keyword.operator.optional",
+            ],
+			"settings": {"foreground": "#00e78f","fontStyle": "bold"}
         },
 
 
