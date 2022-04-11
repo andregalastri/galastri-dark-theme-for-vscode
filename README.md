@@ -19,7 +19,7 @@ Theme for VS Code based on [Delkos Dark Theme](https://github.com/David5i6/Brack
 
 ### Partially supported syntaxes
 These are syntaxes that are still in development or isn't tested enough.
-- Typescript
+- Typescript (Vanilla and React)
 - Latte - PHP Template Engine (requires [Nette Latte + Neon by Martin Kase](https://marketplace.visualstudio.com/items?itemName=kasik96.latte))
 - JSX (React)
 - CSON
