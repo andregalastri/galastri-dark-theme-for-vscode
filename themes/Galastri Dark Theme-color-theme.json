@@ -813,7 +813,7 @@
 
 
 		/**************************************************
-		 * Javascript (Vanilla)
+		 * Javascript
 		 **************************************************/
 		{
             "scope": [
@@ -887,6 +887,7 @@
 				"source.js variable.other.object",
 				"source.js variable.other.readwrite",
 				"source.js meta.export.default variable.other.readwrite",
+				"source.js meta.block variable.parameter",
             ],
 			"settings": {"foreground": "#46d4ff","fontStyle": ""}
         },
@@ -971,9 +972,72 @@
 
 
 
+		/**************************************************
+		 * JSX with Javascript
+		**************************************************/
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx keyword.operator.assignment",
+				"source.js.jsx meta.tag.js.jsx punctuation",
+				"source.js.jsx meta.tag.js.jsx meta.embedded",
+            ],
+			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx comment punctuation",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag punctuation.definition.tag",
+				"source.js.jsx meta.tag entity.name",
+            ],
+			"settings": {"foreground": "#ec4fb8","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx punctuation.definition.string",
+            ],
+			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx meta.tag.attributes",
+            ],
+			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.js.jsx meta.tag.js.jsx support.class.component",
+            ],
+			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		/**************************************************
-		 * Typescript (Vanilla)
+		 * Typescript
 		 **************************************************/
 		 {
             "scope": [
@@ -1020,15 +1084,6 @@
 
 		{
             "scope": [
-				"source.ts meta.type.annotation support.type.primitive",
-				"source.ts meta.type.annotation keyword.operator.type.ts",
-				"source.ts meta.type.annotation support.type.builtin",
-            ],
-			"settings": {"foreground": "#80b7ff","fontStyle": ""}
-        },
-
-		{
-            "scope": [
 				"source.ts storage",
 				"source.ts variable.language.this",
 				"source.ts keyword.control",
@@ -1041,6 +1096,11 @@
 				"source.ts support.type.object",
 				"source.ts support.variable.property",
 				"source.ts meta.return.type support.type.primitive",
+				"source.ts meta.type.annotation support.type.primitive",
+				"source.ts meta.type.annotation keyword.operator.type.ts",
+				"source.ts meta.type.annotation support.type.builtin",
+				"source.ts meta.type.declaration support.type.primitive",
+				"source.ts meta.type.parameters support.type",
             ],
 			"settings": {"foreground": "#80b7ff","fontStyle": ""}
         },
@@ -1057,6 +1117,8 @@
 				"source.ts variable.other.object",
 				"source.ts variable.other.readwrite",
 				"source.ts meta.export.default variable.other.readwrite",
+				"source.ts meta.block variable.parameter",
+
             ],
 			"settings": {"foreground": "#46d4ff","fontStyle": ""}
         },
@@ -1082,8 +1144,21 @@
 				"source.ts meta.export entity.other.inherited-class",
 				"source.ts meta.class entity.other",
 				"source.ts support.class",
+				"source.ts meta.type.annotation entity.name.type",
+				"source.ts meta.return.type entity.name.type",
+				"source.ts meta.type.declaration entity.name.type",
+				"source.ts meta.type.parameters entity.name.type",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.ts meta.type.parameters",
+				"source.ts meta.type.parameters entity.name.type",
+				"source.ts meta.type.parameters support.type",
+            ],
+			"settings": {"fontStyle": "italic underline"}
         },
 
 		{
@@ -1096,7 +1171,7 @@
 				"source.ts variable.other.property",
 				"source.ts entity.name.function",
 				"source.ts variable.other.enummember",
-				"source.ts meta.type.annotation entity.name.type",
+				"source.ts meta.definition.property variable.object.property",
             ],
 			"settings": {"foreground": "#d2f386","fontStyle": ""}
         },
@@ -1116,6 +1191,7 @@
 				"source.ts meta.definition.property",
 				"source.ts entity.name.type",
 				"source.ts meta.import variable.other.readwrite.alias",
+				"source.ts meta.type.declaration entity.name.type.alias",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -1154,7 +1230,7 @@
 
 
 		/**************************************************
-		 * Typescript (React)
+		 * React with TypeScript
 		 **************************************************/
 		 {
             "scope": [
@@ -1201,15 +1277,6 @@
 
 		{
             "scope": [
-				"source.tsx meta.type.annotation support.type.primitive",
-				"source.tsx meta.type.annotation keyword.operator.type.ts",
-				"source.tsx meta.type.annotation support.type.builtin",
-            ],
-			"settings": {"foreground": "#80b7ff","fontStyle": ""}
-        },
-
-		{
-            "scope": [
 				"source.tsx storage",
 				"source.tsx variable.language.this",
 				"source.tsx keyword.control",
@@ -1222,6 +1289,12 @@
 				"source.tsx support.type.object",
 				"source.tsx support.variable.property",
 				"source.tsx meta.return.type support.type.primitive",
+				"source.tsx meta.type.annotation support.type.primitive",
+				"source.tsx meta.type.annotation keyword.operator.type.ts",
+				"source.tsx meta.type.annotation support.type.builtin",
+				"source.tsx meta.type.declaration support.type.primitive",
+				"source.tsx meta.type.parameters support.type",
+
             ],
 			"settings": {"foreground": "#80b7ff","fontStyle": ""}
         },
@@ -1238,6 +1311,7 @@
 				"source.tsx variable.other.object",
 				"source.tsx variable.other.readwrite",
 				"source.tsx meta.export.default variable.other.readwrite",
+				"source.tsx meta.block variable.parameter",
             ],
 			"settings": {"foreground": "#46d4ff","fontStyle": ""}
         },
@@ -1263,8 +1337,21 @@
 				"source.tsx meta.export entity.other.inherited-class",
 				"source.tsx meta.class entity.other",
 				"source.tsx support.class",
+				"source.tsx meta.type.annotation entity.name.type",
+				"source.tsx meta.return.type entity.name.type",
+				"source.tsx meta.type.declaration entity.name.type",
+				"source.tsx meta.type.parameters entity.name.type",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.tsx meta.type.parameters",
+				"source.tsx meta.type.parameters entity.name.type",
+				"source.tsx meta.type.parameters support.type",
+            ],
+			"settings": {"fontStyle": "italic underline"}
         },
 
 		{
@@ -1277,7 +1364,7 @@
 				"source.tsx variable.other.property",
 				"source.tsx entity.name.function",
 				"source.tsx variable.other.enummember",
-				"source.tsx meta.type.annotation entity.name.type",
+				"source.tsx meta.definition.property variable.object.property",
             ],
 			"settings": {"foreground": "#d2f386","fontStyle": ""}
         },
@@ -1297,6 +1384,7 @@
 				"source.tsx meta.definition.property",
 				"source.tsx entity.name.type",
 				"source.tsx meta.import variable.other.readwrite.alias",
+				"source.tsx meta.type.declaration entity.name.type.alias",
             ],
 			"settings": {"foreground": "#e7c500","fontStyle": "bold"}
         },
@@ -1315,7 +1403,7 @@
 			"settings": {"foreground": "#00e78f","fontStyle": "bold"}
         },
 		/**************************************************
-		 * TSX (React)
+		 * JSX with Typescript
 		**************************************************/
 		 {
             "scope": [
@@ -1324,6 +1412,13 @@
 				"source.tsx meta.tag meta.embedded",
             ],
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
+        },
+
+		{
+            "scope": [
+				"source.tsx meta.tag comment punctuation",
+            ],
+			"settings": {"foreground": "#95927e","fontStyle": ""}
         },
 
 		{
@@ -1374,61 +1469,7 @@
 
 
 
-		/**************************************************
-		 * JSX (React)
-		 **************************************************/
-		{
-            "scope": [
-				"source.js.jsx meta.tag.js.jsx keyword.operator.assignment",
-				"source.js.jsx meta.tag.js.jsx punctuation",
-				"source.js.jsx meta.tag.js.jsx meta.embedded",
-            ],
-			"settings": {"foreground": "#ffffff","fontStyle": ""}
-        },
-
-		{
-            "scope": [
-				"source.js.jsx meta.tag punctuation.definition.tag",
-				"source.js.jsx meta.tag entity.name",
-            ],
-			"settings": {"foreground": "#ec4fb8","fontStyle": ""}
-        },
-
-		{
-            "scope": [
-				"source.js.jsx meta.tag.js.jsx punctuation.definition.string",
-            ],
-			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
-        },
-
-		{
-            "scope": [
-				"source.js.jsx meta.tag.js.jsx meta.tag.attributes",
-            ],
-			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
-        },
-
-		{
-            "scope": [
-				"source.js.jsx meta.tag.js.jsx support.class.component",
-            ],
-			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
-        },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 		/**************************************************
 		 * JSON
 		 **************************************************/
