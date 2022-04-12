@@ -1316,12 +1316,12 @@
         },
 		/**************************************************
 		 * TSX (React)
-		 **************************************************/
+		**************************************************/
 		 {
             "scope": [
-				"source.tsx meta.tag.js.jsx keyword.operator.assignment",
-				"source.tsx meta.tag.js.jsx punctuation",
-				"source.tsx meta.tag.js.jsx meta.embedded",
+				"source.tsx meta.tag keyword.operator.assignment",
+				"source.tsx meta.tag punctuation",
+				"source.tsx meta.tag meta.embedded",
             ],
 			"settings": {"foreground": "#ffffff","fontStyle": ""}
         },
@@ -1336,21 +1336,21 @@
 
 		{
             "scope": [
-				"source.tsx meta.tag.js.jsx punctuation.definition.string",
+				"source.tsx meta.tag punctuation.definition.string",
             ],
 			"settings": {"foreground": "#ffa2ea","fontStyle": ""}
         },
 
 		{
             "scope": [
-				"source.tsx meta.tag.js.jsx meta.tag.attributes",
+				"source.tsx meta.tag meta.tag.attributes",
             ],
 			"settings": {"foreground": "#8ae5c9","fontStyle": ""}
         },
 
 		{
             "scope": [
-				"source.tsx meta.tag.js.jsx support.class.component",
+				"source.tsx meta.tag support.class.component",
             ],
 			"settings": {"foreground": "#aaeaaa","fontStyle": ""}
         },
